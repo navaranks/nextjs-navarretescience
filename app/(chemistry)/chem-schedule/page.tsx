@@ -5,7 +5,8 @@ export const metadata: Metadata = {
     title: 'Chemistry Schedule',
   }
 const SchedulePage = () => {
-    const apiURL = process.env.CHEM_API_URL as string;
+    const apiURL = "https://script.google.com/macros/s/AKfycbxb0Kd3Lv15BBKb33s7YUSEyBkGTcB-sl11MuE0xGz_xBn8J7mMvPlKXrCKzW9yXdKEkQ/exec"
+    ;
     
 
     return(
