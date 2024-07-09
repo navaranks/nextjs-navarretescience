@@ -8,13 +8,15 @@ export const metadata: Metadata = {
 }
 
 export default function ChemHome() {
-  const IntroImage = "/images/cintro.jpg";
+  const IntroImageLight = "/images/cintro.jpg";
+  const IntroImageDark = "/images/cintro-dark.png";
   const SchoolYear = "2024-2025";
   const Subject = "Chemistry";
   return (
     <main>
       <IntroMessage
-        IntroImageSrc={IntroImage}
+        IntroImageSrcLight={IntroImageLight}
+        IntroImageSrcDark={IntroImageDark}
         SchoolYear={SchoolYear}
         Subject={Subject}
       />

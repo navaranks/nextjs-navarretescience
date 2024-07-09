@@ -3,18 +3,19 @@ import { Card, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
 
 interface IntroMessageProps {
-  IntroImageSrc: string;
+  IntroImageSrcLight: string;
+  IntroImageSrcDark: string;
   SchoolYear: string;
   Subject: string;
 }
-function IntroMessage( {IntroImageSrc, SchoolYear, Subject}: IntroMessageProps) {
+function IntroMessage( {IntroImageSrcLight, IntroImageSrcDark, SchoolYear, Subject}: IntroMessageProps) {
   return (
     <div className='py-2 px-4 space-y-4'>
         <Card className='max-w-screen-xl mx-auto'>
             <CardContent className='flex flex-col md:flex-row px-4 py-3'>
                 <div className='mx-auto p-2 max-w-xs '>
-                    
-                    <Image src={IntroImageSrc}  width={320} height={320}  alt='Intro Image'/>
+                    <Image className='dark:hidden' src={IntroImageSrcLight}  width={320} height={320}  alt='Intro Image'/>
+                    <Image className='hidden dark:block' src={IntroImageSrcDark}  width={320} height={320}  alt='Intro Image'/>
                 </div>
                 <div className='w-full m-auto px-5'>
                     <h1 className='text-3xl font-bold text-center py-2'> WELCOME CLASS OF {SchoolYear}</h1>

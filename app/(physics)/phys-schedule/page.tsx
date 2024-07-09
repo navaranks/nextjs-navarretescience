@@ -1,5 +1,9 @@
 import ClassSchedule from "@/components/class-schedule"
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: 'Physics Schedule',
+  }
 const SchedulePage = () => {
     const apiURL = process.env.PHYS_API_URL as string;
 

@@ -3,6 +3,11 @@ import Polaroid from "@/components/polaroid";
 import PolaroidVideo from "@/components/polaroid-video";
 import { Card, CardContent, CardTitle } from "@/components/ui/card";
 import AboutQuickLinks from "@/components/about/aboutquicklinks";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'About Mr.Navarrete',
+}
 
 const Image1 = "/images/aboutme1.jpg";
 const Image2 = "/images/aboutme2.jpg";

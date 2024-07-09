@@ -9,13 +9,15 @@ export const metadata: Metadata = {
 }
 
 export default function PhysHome() {
-  const IntroImage = "/images/pintro.jpg";
+  const IntroImageLight = "/images/pintro.png";
+  const IntroImageDark = "/images/pintro-dark.png";
   const SchoolYear = "2024-2025";
   const Subject = "Physics";
   return (
     <main>
       <IntroMessage
-        IntroImageSrc={IntroImage}
+        IntroImageSrcLight={IntroImageLight}
+        IntroImageSrcDark={IntroImageDark}
         SchoolYear={SchoolYear}
         Subject={Subject}
       />
