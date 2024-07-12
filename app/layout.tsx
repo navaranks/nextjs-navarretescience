@@ -22,6 +22,7 @@ export default function RootLayout({
       <ThemeProvider attribute="class"  disableTransitionOnChange>
         <body className={inter.className}>{children}</body>
       </ThemeProvider>
+      <SpeedInsights />
     </html>
   );
 }
