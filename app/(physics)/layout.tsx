@@ -29,7 +29,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <MainNav bgColor={bgGradient}/>
         <PageHero ImageSrc={heroImage} />
         <section className="bg-background min-h-fit h-full">
-          <div className="  last:pb-24 md:last:pb-28">{children}</div>
+          <div className="last:pb-24 md:last:pb-28">{children}</div>
         </section>
         <BottomNav links={navLinks} activeColor={activeColor} />
       </div>

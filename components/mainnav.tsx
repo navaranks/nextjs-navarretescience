@@ -42,7 +42,7 @@ export default function MainNav({ bgColor = "bg-white" }) {
   const isDesktop = useMediaQuery("(min-width:768px)");
 
   return (
-    <nav className={`bg-gradient-to-b ${bgColor} w-full border-b md:border-0`}>
+    <nav className={`bg-gradient-to-b ${bgColor} w-screen fixed top-0 z-10 border-b md:border-0`}>
       <div className="max-w-screen-xl px-4 mx-auto md:px-8">
         <div className="flex items-center justify-between py-2 md:py-4 transform duration-500 ">
           <Link href="/">

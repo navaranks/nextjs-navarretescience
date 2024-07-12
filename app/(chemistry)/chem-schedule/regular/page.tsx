@@ -2,11 +2,10 @@ import ClassSchedule from "@/components/class-schedule"
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: 'Chemistry Schedule',
+    title: 'Regular Chemistry Schedule',
   }
-const SchedulePage = () => {
-    const apiURL = "https://script.google.com/macros/s/AKfycbxb0Kd3Lv15BBKb33s7YUSEyBkGTcB-sl11MuE0xGz_xBn8J7mMvPlKXrCKzW9yXdKEkQ/exec"
-    ;
+const RegularSchedulePage = () => {
+    const apiURL = process.env.NEXT_PUBLIC_REGULAR_CHEM_API_URL as string;
     
 
     return(
@@ -16,4 +15,4 @@ const SchedulePage = () => {
     );
 }
 
-export default SchedulePage;
+export default RegularSchedulePage;
