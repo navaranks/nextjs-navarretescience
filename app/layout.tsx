@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
+import { SpeedInsights} from "@vercel/speed-insights/next"
 
 
 const inter = Source_Sans_3({ subsets: ["latin"] });
