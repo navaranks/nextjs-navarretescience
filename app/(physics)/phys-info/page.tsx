@@ -2,8 +2,8 @@ import ClassInfo from "@/components/classinfo";
 import { Metadata } from "next";
 
 const Subject = "Physics";
-const Syllabus = "/chemistry/Syllabus/Honors_Chemistry_Syllabus_2023_2024.pdf";
-const LabSafetyContract = "/chemistry/Syllabus/Lab_Safety_Contract.pdf";
+const Syllabus = "/physics/Syllabus/Honors_Physics_Syllabus_2024_2025.pdf";
+const LabSafetyContract = "/physics/Syllabus/Lab_Safety_Contract.pdf";
 
 export const metadata: Metadata = {
     title: 'Physics Info',

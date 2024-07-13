@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     title: 'Physics Schedule',
   }
 const SchedulePage = () => {
-    const apiURL = process.env.PHYS_API_URL as string;
+    const apiURL = "https://script.google.com/macros/s/AKfycbz7nfc5IGy81-mFpgHS2mnJcysrjylojSu_N53CCYD4hHHsaMaUWw_Imz5RL3PHEXL4/exec";
 
     return(
         <main>

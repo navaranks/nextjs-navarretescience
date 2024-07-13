@@ -1,19 +1,16 @@
 import React from "react";
 import Link from "next/link";
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
-  NavigationMenuViewport,
-} from "./ui/navigation-menu"; // Adjust the import path if necessary
+} from "./ui/navigation-menu";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarWeek, faFileCircleInfo, faFolderClosed, faHome } from "@fortawesome/pro-solid-svg-icons";
 
 interface NavItem {
   href: string;
@@ -21,112 +18,94 @@ interface NavItem {
   icon: React.ReactElement;
   isActive: boolean;
   sublinks?: NavItem[];
+  isSublinkActive?: boolean;  // New property to check if any sublink is active
 }
 
 interface BottomMenuProps {
   links: NavItem[];
   activeColor: string;
 }
+
 const ListItem = React.forwardRef<
   React.ElementRef<"a">,
-  React.ComponentPropsWithoutRef<"a">
->(({ className, title, children, ...props }, ref) => {
+  {
+    className?: string;
+    title: string;
+    isActive: boolean; // Explicitly declare isActive
+    href: string;
+    children?: React.ReactNode;
+  }
+>(({ className, title, isActive, href, children }, ref) => {
   return (
     <li>
-      <NavigationMenuLink asChild>
-        <a
-          ref={ref}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="text-sm font-medium leading-none">{title}</div>
-          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-            {children}
-          </p>
-        </a>
-      </NavigationMenuLink>
+      <a
+        ref={ref}
+        href={href} // Ensure href is passed correctly
+        className={cn(
+          "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:underline hover:decoration-wavy hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+          isActive ? "bg-accent text-accent-foreground" : "", // Conditional class for active state
+          className
+        )}
+      >
+        <div className="text-sm font-medium leading-none">{title}</div>
+        <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
+          {children}
+        </p>
+      </a>
     </li>
-  )
-})
-ListItem.displayName = "ListItem"
+  );
+});
+ListItem.displayName = "ListItem";
 
 const BottomMenu: React.FC<BottomMenuProps> = ({ links, activeColor }) => {
   return (
     <div className="fixed bottom-0 w-full py-3 md:py-5 z-10 bg-primary-foreground border-t dark:border-zinc-800 border-zinc-200 shadow-lg transform duration-500">
-      <div className="max-w-screen-xl mx-auto ">
+      <div className="max-w-screen-xl mx-auto">
         <NavigationMenu className="max-w-screen-xl px-4 mx-auto">
-          <NavigationMenuList className=" ">
-            
-            <NavigationMenuItem >
-              <Link
-                href="/chem-home"
-                legacyBehavior
-                passHref
-              >
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                <div className="flex flex-col items-center justify-center w-">
-                    <FontAwesomeIcon icon={faHome} size="lg" color="#DA4453" />
-                    <span>Home</span>
-                  </div>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem className="">
-              <NavigationMenuTrigger className="">
-              <div className="flex flex-col items-center justify-center">
-                  <FontAwesomeIcon icon={faCalendarWeek} size="lg" />
-                    <span>Schedule</span>
-                  </div>
-              </NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <ul>
-                  <ListItem
-                    title="Regular Schedule"
-                    href="/chem-schedule/regular"
-                    >
-        
-                  </ListItem>
-                  <ListItem
-                  title="Honors Schedule"
-                  href="/chem-schedule/honors">
-        
-                  </ListItem>
-                </ul>
-              </NavigationMenuContent>
-            </NavigationMenuItem>
-            
-            <NavigationMenuItem>
-              <Link
-                href="/chem-info"
-                legacyBehavior
-                passHref
-              >
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                <div className="flex flex-col items-center justify-center">
-                <FontAwesomeIcon icon={faFileCircleInfo} size="lg" />
-                    <span>Info</span>
-                  </div>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
-            <NavigationMenuItem>
-              <Link
-                href="/chem-handouts"
-                legacyBehavior
-                passHref
-        
-              >
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  <div className="flex flex-col items-center justify-center">
-                  <FontAwesomeIcon icon={faFolderClosed} size="lg" />
-                    <span>Handouts</span>
-                  </div>
-                </NavigationMenuLink>
-              </Link>
-            </NavigationMenuItem>
+          <NavigationMenuList>
+            {links.map((link) => (
+              <NavigationMenuItem key={link.href}>
+                {link.sublinks ? (
+                  <>
+                    <NavigationMenuTrigger>
+                      <div className={`flex flex-col items-center justify-center ${link.isSublinkActive ? "bg-accent" : ""}`}>
+                        <FontAwesomeIcon
+                          icon={link.icon.props.icon}
+                          size="lg"
+                          color={link.isActive || link.isSublinkActive ? activeColor : undefined}
+                        />
+                        <span>{link.label}</span>
+                      </div>
+                    </NavigationMenuTrigger>
+                    <NavigationMenuContent>
+                      <ul>
+                        {link.sublinks.map((sublink) => (
+                          <ListItem
+                            key={sublink.href}
+                            title={sublink.label}
+                            href={sublink.href}
+                            isActive={sublink.isActive}
+                          />
+                        ))}
+                      </ul>
+                    </NavigationMenuContent>
+                  </>
+                ) : (
+                  <Link href={link.href} legacyBehavior passHref>
+                    <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                      <div className="flex flex-col items-center justify-center">
+                        <FontAwesomeIcon
+                          icon={link.icon.props.icon}
+                          size="lg"
+                          color={link.isActive ? activeColor : undefined}
+                        />
+                        <span>{link.label}</span>
+                      </div>
+                    </NavigationMenuLink>
+                  </Link>
+                )}
+              </NavigationMenuItem>
+            ))}
           </NavigationMenuList>
         </NavigationMenu>
       </div>

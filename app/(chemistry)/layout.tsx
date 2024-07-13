@@ -1,5 +1,5 @@
 "use client";
-import BottomNav from "../../components/bottomnav";
+
 import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +9,8 @@ import { useEffect } from 'react';
 import BottomMenu from "@/components/bottommenu";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const heroImage = "/images/cbanner.webp";
+  const heroImageLight = "/images/cbanner.webp";
+  const heroImageDark = "/images/cbanner-dark.webp";
   const activeColor = '#DA4453';
   const bgGradient = 'from-[#ED5565] to-[#DA4453]';
   const pathname = usePathname();
@@ -33,20 +34,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   }, [pathname]);
 
   return (
-    <main className="overflow-hidden ">
-      <div className="chem-light dark:chem-dark -mr-[calc(100vw-100%)]">
-        <MainNav bgColor={bgGradient} />
-        <PageHero ImageSrc={heroImage} />
-        <section className="bg-background min-h-fit h-full">
-          <div className="last:pb-24 md:last:pb-28">{children}</div>
-        </section>
-        <BottomMenu links={navLinks.map(link => ({
-          ...link,
-          sublinks: link.sublinks 
-            ? link.sublinks.map(sublink => ({ ...sublink, icon: link.icon }))
-            : undefined
-        }))} activeColor={activeColor} />
-      </div>
-    </main>
+    <div className="wrapper">
+      <main className="main-cointainer ">
+        <div className="chem-light dark:chem-dark ">
+          <MainNav bgColor={bgGradient} />
+          <PageHero ImageSrcLight={heroImageLight} ImageSrcDark={heroImageDark} />
+          <section className="bg-background min-h-fit h-full w-full">
+            <div className="last:pb-24 md:last:pb-28">{children}</div>
+          </section>
+          <BottomMenu links={navLinks.map(link => ({
+            ...link,
+            sublinks: link.sublinks
+              ? link.sublinks.map(sublink => ({ ...sublink, icon: link.icon }))
+              : undefined
+          }))} activeColor={activeColor} />
+        </div>
+      </main>
+    </div>
   );
 }

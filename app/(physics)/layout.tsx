@@ -8,7 +8,8 @@ import { usePathname } from 'next/navigation';
 import { useEffect } from 'react';
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const heroImage = "/images/pbanner.png";
+  const heroImageLight = "/images/pbanner.webp";
+  const heroImageDark = "/images/pbanner-dark.webp";
   const activeColor = '#4A89DC';
   const bgGradient = 'from-[#5D9CEC] to-[#4A89DC]';
   const pathname = usePathname();
@@ -24,15 +25,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     console.log('Navigation Links:', navLinks);
   }, [pathname]);
   return (
-    <main className="" >
-      <div className="phys-light dark:phys-dark" >
-        <MainNav bgColor={bgGradient}/>
-        <PageHero ImageSrc={heroImage} />
-        <section className="bg-background min-h-fit h-full">
-          <div className="last:pb-24 md:last:pb-28">{children}</div>
-        </section>
-        <BottomNav links={navLinks} activeColor={activeColor} />
-      </div>
-    </main>
+    <div className="wrapper">
+      <main className="main-cointainer">
+        <div className="phys-light dark:phys-dark" >
+          <MainNav bgColor={bgGradient}/>
+          <PageHero ImageSrcLight={heroImageLight} ImageSrcDark={heroImageDark} />
+          <section className="bg-background min-h-fit h-full">
+            <div className="last:pb-24 md:last:pb-28">{children}</div>
+          </section>
+          <BottomNav links={navLinks} activeColor={activeColor} />
+        </div>
+      </main>
+    </div>
   );
 }

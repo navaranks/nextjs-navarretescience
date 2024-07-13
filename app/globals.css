@@ -106,3 +106,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  margin:0;
+}
+
+.wrapper {
+  width: 100%;
+  overflow-x: clip;
+}
+
+.main-cointainer {
+  width: 100vw;
+  position: relative;
+}

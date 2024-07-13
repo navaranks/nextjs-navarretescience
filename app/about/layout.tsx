@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <main className="" >
       <div className="about-light dark:about-dark" >
         <MainNav bgColor={bgGradient}/>
-        <PageHero ImageSrc={heroImage} />
+        <PageHero ImageSrcLight={heroImage} ImageSrcDark={heroImage} />
         <section className="bg-background min-h-fit h-full">
           <div className="  last:pb-24 md:last:pb-12">{children}</div>
         </section>
