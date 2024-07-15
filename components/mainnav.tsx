@@ -1,4 +1,3 @@
-"use client";
 
 import React from "react";
 import Link from "next/link";
@@ -10,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight, faMoonOverSun, faHouse, faPersonChalkboard, faPlanetMoon, faFlaskRoundPotion } from '@fortawesome/pro-duotone-svg-icons'
 import { faBarsSort, faSun } from '@fortawesome/pro-solid-svg-icons'
 import { ThemeButton } from "./ui/theme-button";
+import { Button } from "./ui/button";
 
 export default function MainNav({ bgColor = "bg-white" }) {
   const menus = [
@@ -67,11 +67,11 @@ export default function MainNav({ bgColor = "bg-white" }) {
           ) : (
             <Drawer direction="right">
               <DrawerTrigger asChild>
-                <button className="outline-none focus:outline-none">
+                <Button variant="ghost" size="icon" className="hover:bg-input outline-none focus:outline-none">
                   <FontAwesomeIcon icon={faBarsSort} size="lg" color="white" flip="horizontal" />
-                </button>
+                </Button>
               </DrawerTrigger>
-              <DrawerContent className="p-4 justify-between">
+              <DrawerContent className="py-4 pl-4 justify-between">
                 <Card className="drop-shadow-lg border-none">
                   <CardHeader>
                     <CardTitle>Navigation</CardTitle>
