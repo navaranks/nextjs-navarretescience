@@ -1,4 +1,4 @@
-
+"use client";
 
 import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
