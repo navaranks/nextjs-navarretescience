@@ -7,9 +7,6 @@ export interface ScheduleDay {
   Date: string;
   'Class Topic': string;
   Homework: string;
-  HomeworkLink: string;
-  Homework2: string;
-  Homework2Link: string;
 }
 
 interface ScheduleProps {
