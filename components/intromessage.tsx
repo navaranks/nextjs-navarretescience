@@ -1,6 +1,9 @@
-import React from 'react'
+"use client"
+import React, { useEffect, useState } from 'react'
 import { Card, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
+
+import { Skeleton } from './ui/skeleton';
 
 interface IntroMessageProps {
   IntroImageSrcLight: string;
@@ -9,13 +12,31 @@ interface IntroMessageProps {
   Subject: string;
 }
 function IntroMessage( {IntroImageSrcLight, IntroImageSrcDark, SchoolYear, Subject}: IntroMessageProps) {
+  const [loading, setLoading] = useState(true);
+
+  // useEffect(() => {
+  //   console.log('Loading Image', loading);
+  // }, []);
+
+  const handleImageLoad = () => {
+    // console.log('Image Loaded');
+    setLoading(false);
+  };
   return (
     <div className='py-2 px-4 space-y-4'>
         <Card className='max-w-screen-xl mx-auto'>
             <CardContent className='flex flex-col md:flex-row px-4 py-3'>
-                <div className='mx-auto p-2 max-w-xs '>
-                    <Image className='dark:hidden' src={IntroImageSrcLight}  width={320} height={320}  alt='Intro Image'/>
-                    <Image className='hidden dark:block' src={IntroImageSrcDark}  width={320} height={320}  alt='Intro Image'/>
+                <div className='mx-auto p-2 dark:hidden '>
+                  {loading && <Skeleton className="h-auto w-80 md:w-64 md:h-64 rounded-xl" />}
+                    <Image style={{display: loading ? 'none':'block'}} className='dark:hidden' src={IntroImageSrcLight}  width={320} height={320}  alt='Intro Image' onLoad={handleImageLoad}  loading='eager'/>
+                    
+                  
+                </div>
+                <div className='mx-auto p-2 hidden dark:block'>
+                  {loading && <Skeleton className="h-auto w-80 md:w-64 md:h-64 rounded-xl" />}
+                    
+                    <Image style={{display: loading ? 'none':'block'}} className='hidden dark:block' src={IntroImageSrcDark}  width={320} height={320}  alt='Intro Image' onLoad={handleImageLoad}  loading='eager'/>
+                    
                 </div>
                 <div className='w-full m-auto px-5'>
                     <h1 className='text-3xl font-bold text-center py-2'> WELCOME CLASS OF {SchoolYear}</h1>
