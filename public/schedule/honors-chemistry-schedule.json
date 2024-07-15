@@ -1,0 +1,1445 @@
+[
+    {
+      "season": "Fall",
+      "tableid": "1",
+      "week": "August 12th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "8/12",
+          "Class Topic": "Honors",
+          "Homework": "Complete the <a href=\"/chemistry/Unit_01_Metrics/ManualGraphingHW.pdf\" target=\"_self\">Graphing by Hand</a> Handout"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "8/13",
+          "Class Topic": "Chemistry",
+          "Homework": 2
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "8/14",
+          "Class Topic": "womp",
+          "Homework": ""
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "8/15",
+          "Class Topic": "stronger",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "8/16",
+          "Class Topic": "power",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "2",
+      "week": "August 19th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "8/19",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "8/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "8/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "8/22",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "8/23",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "3",
+      "week": "August 26th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "8/26",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "8/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "8/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "8/29",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "8/30",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "4",
+      "week": "September 2nd, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "9/2",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "9/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "9/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "9/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "9/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "5",
+      "week": "September 9th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "9/9",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "9/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "9/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "9/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "9/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "6",
+      "week": "September 16th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "9/16",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "9/17",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "9/18",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "9/19",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "9/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "7",
+      "week": "September 23rd, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "9/23",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "9/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "9/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "9/26",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "9/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "8",
+      "week": "September 30th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "9/30",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "10/1",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "10/2",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "10/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "10/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "9",
+      "week": "October 7th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "10/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "10/8",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "10/9",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "10/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "10/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "10",
+      "week": "October 14th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "10/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "10/15",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "10/16",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "10/17",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "10/18",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "11",
+      "week": "October 21st, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "10/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "10/22",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "10/23",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "10/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "10/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "12",
+      "week": "October 28th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "10/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "10/29",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "10/30",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "10/31",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "11/1",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "13",
+      "week": "November 4th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "11/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "11/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "11/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "11/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "11/8",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "14",
+      "week": "November 11th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "11/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "11/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "11/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "11/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "11/15",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "15",
+      "week": "November 18th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "11/18",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "11/19",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "11/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "11/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "11/22",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "16",
+      "week": "November 25th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "11/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "11/26",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "11/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "11/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "11/29",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "17",
+      "week": "December 2nd, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "12/2",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "12/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "12/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "12/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "12/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Fall",
+      "tableid": "18",
+      "week": "December 9th, 2024",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "12/9",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "12/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "12/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "12/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "12/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "1",
+      "week": "January 6th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "1/6",
+          "Class Topic": "harder",
+          "Homework": "website"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "1/7",
+          "Class Topic": "better",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "1/8",
+          "Class Topic": "faster",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "1/9",
+          "Class Topic": "stronger",
+          "Homework": 21
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "1/10",
+          "Class Topic": "power",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "2",
+      "week": "January 13th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "1/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "1/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "1/15",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "1/16",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "1/17",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "3",
+      "week": "January 20th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "1/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "1/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "1/22",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "1/23",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "1/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "4",
+      "week": "January 27th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "1/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "1/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "1/29",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "1/30",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "1/31",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "5",
+      "week": "February 3rd, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "2/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "2/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "2/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "2/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "2/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "6",
+      "week": "February 10th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "2/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "2/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "2/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "2/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "2/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "7",
+      "week": "February 17th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "2/17",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "2/18",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "2/19",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "2/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "2/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "8",
+      "week": "February 24th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "2/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "2/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "2/26",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "2/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "2/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "9",
+      "week": "March 3rd, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "3/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "3/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "3/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "3/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "3/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "10",
+      "week": "March 10th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "3/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "3/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "3/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "3/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "3/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "11",
+      "week": "March 17th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "3/17",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "3/18",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "3/19",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "3/20",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "3/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "12",
+      "week": "March 24th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "3/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "3/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "3/26",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "3/27",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "3/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "13",
+      "week": "March 31st, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "3/31",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "4/1",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "4/2",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "4/3",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "4/4",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "14",
+      "week": "April 7th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "4/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "4/8",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "4/9",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "4/10",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "4/11",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "15",
+      "week": "April 21st, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "4/21",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "4/22",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "4/23",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "4/24",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "4/25",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "16",
+      "week": "April 28th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "4/28",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "4/29",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "4/30",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "5/1",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "5/2",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "17",
+      "week": "May 5th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "5/5",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "5/6",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "5/7",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "5/8",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "5/9",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": "18",
+      "week": "May 12th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "5/12",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "5/13",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "5/14",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "5/15",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "5/16",
+          "Class Topic": "Chem",
+          "Homework": "None"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": 19,
+      "week": "May 19th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "5/19",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "5/20",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "5/21",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "5/22",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "5/23",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": 20,
+      "week": "May 26th, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "5/26",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "5/27",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "5/28",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "5/29",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "5/30",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        }
+      ]
+    },
+    {
+      "season": "Spring",
+      "tableid": 21,
+      "week": "June 2nd, 2025",
+      "days": [
+        {
+          "Weekday": "Monday",
+          "Date": "6/2",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Tuesday",
+          "Date": "6/3",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Wednesday",
+          "Date": "6/4",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Thursday",
+          "Date": "6/5",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        },
+        {
+          "Weekday": "Friday",
+          "Date": "6/6",
+          "Class Topic": "Chem",
+          "Homework": "Chem"
+        }
+      ]
+    }
+  ]
