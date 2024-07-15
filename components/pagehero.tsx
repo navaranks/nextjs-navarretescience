@@ -22,7 +22,7 @@ function PageHero({ ImageSrcLight, ImageSrcDark }: PageHeroProps) {
           <div className="h-32 mx-auto relative md:h-40 overflow-hidden rounded-lg">
             <div className="dark:hidden">
               {loading && (
-                <Skeleton className="h-full w-full rounded-lg" />
+                <Skeleton className="md:h-40 h-32 w-full rounded-lg" />
               )}
               <Image
                 className="object-cover dark:hidden"
@@ -31,13 +31,13 @@ function PageHero({ ImageSrcLight, ImageSrcDark }: PageHeroProps) {
                 fill
                 alt="Banner Light"
                 onLoad={handleImageLoad}
-                unoptimized
+                
                 loading="eager"
               />
             </div>
             <div className="hidden dark:block">
               {loading && (
-                <Skeleton className="h-full w-full rounded-lg" />
+                <Skeleton className="md:h-40 h-32 w-full rounded-lg" />
               )}
               <Image
                 className="object-cover hidden dark:block"

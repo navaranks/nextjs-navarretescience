@@ -28,10 +28,10 @@ export default function Polaroid({
           <Image
             src={PolaroidImage}
             alt={Caption}
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{'objectFit': 'cover'}}
             className="rounded-lg"
-            unoptimized
+            
           />
         </div>
       </CardContent>

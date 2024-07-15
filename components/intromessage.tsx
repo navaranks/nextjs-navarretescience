@@ -27,13 +27,13 @@ function IntroMessage( {IntroImageSrcLight, IntroImageSrcDark, SchoolYear, Subje
         <Card className='max-w-screen-xl mx-auto'>
             <CardContent className='flex flex-col md:flex-row px-4 py-3'>
                 <div className='mx-auto p-2 dark:hidden '>
-                  {loading && <Skeleton className="h-auto w-80 md:w-64 md:h-64 rounded-xl" />}
+                  {loading && <Skeleton className="h-80 w-80 md:w-64 md:h-64 rounded-xl" />}
                     <Image style={{display: loading ? 'none':'block'}} className='dark:hidden' src={IntroImageSrcLight}  width={320} height={320}  alt='Intro Image' onLoad={handleImageLoad}  loading='eager'/>
                     
                   
                 </div>
                 <div className='mx-auto p-2 hidden dark:block'>
-                  {loading && <Skeleton className="h-auto w-80 md:w-64 md:h-64 rounded-xl" />}
+                  {loading && <Skeleton className="h-80 w-80 md:w-64 md:h-64 rounded-xl" />}
                     
                     <Image style={{display: loading ? 'none':'block'}} className='hidden dark:block' src={IntroImageSrcDark}  width={320} height={320}  alt='Intro Image' onLoad={handleImageLoad}  loading='eager'/>
                     
