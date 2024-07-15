@@ -18,6 +18,7 @@ function HeroCard() {
           src='/images/logo2.webm'
           autoPlay
           muted
+          playsInline
           loop
           className={`mx-auto md:w-1/2 ${videoLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={handleVideoLoad}

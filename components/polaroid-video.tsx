@@ -18,7 +18,7 @@ export default function PolaroidVideo({
     <Card className="max-w-md md:max-w-sm w-full shadow-lg m-auto bg-muted">
       <CardContent className="p-4 ">
         <div className={`relative w-full overflow-hidden rounded-lg`}>
-          <video src={PolaroidImage} autoPlay muted loop   />
+          <video src={PolaroidImage} autoPlay muted loop playsInline   />
         </div>
       </CardContent>
       <CardFooter className="block text-center text-pretty">

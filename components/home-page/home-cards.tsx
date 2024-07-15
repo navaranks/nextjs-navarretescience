@@ -19,6 +19,7 @@ function HomeCards() {
           src='/images/Chem.webm'
           autoPlay
           muted
+          playsInline
           loop
           className={`w-64 mx-auto ${chemLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setChemLoaded(true)}
@@ -33,6 +34,7 @@ function HomeCards() {
           src='/images/cradleloop.webm'
           autoPlay
           muted
+          playsInline
           loop
           className={`w-64 mx-auto ${physLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setPhysLoaded(true)}
@@ -47,6 +49,7 @@ function HomeCards() {
           src='/images/Aboutlogo.webm'
           autoPlay
           muted
+          playsInline
           loop
           className={`w-64 mx-auto ${aboutLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setAboutLoaded(true)}
