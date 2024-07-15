@@ -23,7 +23,7 @@ import {
   
   export default function classinfo({Subject,Syllabus,LabSafetyContract}:ClassInfoProps) {
     return (
-      <main className="flex flex-col px-4 gap-y-4">
+      <main className="flex flex-col px-4 gap-y-2">
         <Card className="max-w-screen-xl mx-auto">
           <CardHeader>
             <p>

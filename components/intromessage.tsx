@@ -23,7 +23,7 @@ function IntroMessage( {IntroImageSrcLight, IntroImageSrcDark, SchoolYear, Subje
     setLoading(false);
   };
   return (
-    <div className='py-2 px-4 space-y-4'>
+    <div className=' px-4 gap-y-2'>
         <Card className='max-w-screen-xl mx-auto'>
             <CardContent className='flex flex-col md:flex-row px-4 py-3'>
                 <div className='mx-auto p-2 dark:hidden '>

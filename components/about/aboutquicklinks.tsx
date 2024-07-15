@@ -17,7 +17,7 @@ import React from "react";
 
 function AboutQuickLinks() {
   return (
-    <div className="py-2 px-4 space-y-4">
+    <div className=" px-4 space-y-4">
       <Card className="max-w-screen-xl w-full mx-auto">
         <CardTitle className="text-2xl font-extrabold text-center text-primary pt-2">
           Quick Links

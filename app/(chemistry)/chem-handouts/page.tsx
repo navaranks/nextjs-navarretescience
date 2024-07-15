@@ -21,7 +21,7 @@ const ChemHandouts = () => {
   const Subject= 'Chemistry'
 
   return (
-    <main className="flex flex-col px-4 gap-y-4">
+    <main className="flex flex-col px-4 gap-y-2">
       <Card className="max-w-screen-xl w-full mx-auto">
         <CardHeader className='text-center'>
           <CardTitle className='text-2xl font-extrabold'>These are the handouts we will be using throughout the course!</CardTitle>
