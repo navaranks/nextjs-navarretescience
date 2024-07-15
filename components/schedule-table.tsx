@@ -26,7 +26,7 @@ const SafeHtml: React.FC<SafeHtmlProps> = ({ html }) => {
         anchor.classList.add("text-primary", "hover:underline", "hover:decoration-wavy");
       });
     }
-  }, [sanitizedHtml]);
+  }, []);
 
   return (
     <span ref={spanRef} dangerouslySetInnerHTML={{ __html: sanitizedHtml }} />
