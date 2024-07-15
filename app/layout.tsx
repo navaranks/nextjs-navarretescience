@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
-      <ThemeProvider attribute="class"  disableTransitionOnChange>
+      <ThemeProvider attribute="class" enableSystem defaultTheme="system" disableTransitionOnChange>
         <body className={inter.className}>{children}</body>
       </ThemeProvider>
       <SpeedInsights />
