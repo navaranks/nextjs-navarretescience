@@ -1,6 +1,4 @@
-"use client";
-
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Schedule, { ScheduleData } from './schedule'; // Import Schedule and ScheduleData
 import ScheduleCard from './schedule-card';
 
@@ -8,30 +6,41 @@ interface ClassScheduleProps {
   apiURL: string;
 }
 
-export default function ClassSchedule({apiURL}: ClassScheduleProps) {
-    const [scheduleData, setScheduleData] = useState<ScheduleData[] | null>(null);
-    const [isLoading, setIsLoading] = useState(true);
-
-    useEffect(() => {
-       // This will show what URL is received
-      if (!apiURL) return;
-      fetch(apiURL)
-          .then(response => response.json())
-          .then(data => {
-              setScheduleData(data);
-              setIsLoading(false);
-          })
-          .catch(error => {
-              console.error('Error fetching schedule:', error);
-              setIsLoading(false);
-          });
-  }, [apiURL]); // apiURL is a dependency here
-  
-
-    return (
-        <main className='flex flex-col px-4 gap-y-4'>
-            <ScheduleCard />
-            <Schedule isLoading={isLoading} scheduleData={scheduleData}/>
-        </main>
+async function fetchScheduleData(apiURL: string): Promise<ScheduleData[] | null> {
+  try {
+    const response = await fetch(apiURL,
+        {
+            next: {
+                revalidate: 5, // Automatically revalidate the data after 5 seconds
+            },
+        }
     );
+    if (!response.ok) {
+      throw new Error('Failed to fetch schedule data');
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Error fetching schedule:', error);
+    return null;
+  }
+}
+
+export default async function ClassSchedule({ apiURL }: ClassScheduleProps) {
+  if (!apiURL) {
+    return (
+      <main className='flex flex-col px-4 gap-y-4'>
+        <p>API URL is missing</p>
+      </main>
+    );
+  }
+
+  const scheduleData = await fetchScheduleData(apiURL);
+
+  return (
+    <main className='flex flex-col px-4 gap-y-4'>
+      <ScheduleCard />
+      <Schedule isLoading={!scheduleData} scheduleData={scheduleData} />
+    </main>
+  );
 }
