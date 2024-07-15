@@ -4,7 +4,7 @@ import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const heroImage = "/images/aboutheader.jpg";
+  const heroImage = "/images/aboutheader.webp";
  
   const bgGradient = 'from-[#AC92EC] to-[#967ADC]';
 

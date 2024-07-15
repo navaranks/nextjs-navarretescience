@@ -9,14 +9,14 @@ export const metadata: Metadata = {
   title: 'About Mr.Navarrete',
 }
 
-const Image1 = "/images/aboutme1.jpg";
-const Image2 = "/images/aboutme2.jpg";
+const Image1 = "/images/aboutme1.webp";
+const Image2 = "/images/aboutme2.webp";
 const Image3 = "/images/pc.webm";
 
 function page() {
   return (
-    <main>
-      <div className="py-2 px-4 bg-background">
+    <main className="flex flex-col  gap-y-2">
+      <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
           <CardContent className="px-4 py-3 flex flex-col md:flex-row gap-2">
             <Polaroid
@@ -48,7 +48,7 @@ function page() {
           </CardContent>
         </Card>
       </div>
-      <div className="py-2 px-4 bg-background">
+      <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
           <CardContent className="px-4 py-3 flex flex-col md:flex-row-reverse gap-2">
             <Polaroid
@@ -81,7 +81,7 @@ function page() {
           </CardContent>
         </Card>
       </div>
-      <div className="py-2 px-4 bg-background">
+      <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
           <CardContent className="px-4 py-3 flex flex-col md:flex-row gap-2">
             <PolaroidVideo PolaroidImage={Image3} Caption="Guess the specs?" />
@@ -138,7 +138,7 @@ function page() {
           </CardContent>
         </Card>
       </div>
-      <div className="py-2 px-4 bg-background">
+      <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
           <CardTitle className="text-xl font-extrabold text-center text-[#967ADC] p-4 text-balance">
             Education is my main goal, and I want to be able to connect the
