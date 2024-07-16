@@ -10,7 +10,7 @@ function HeroCard() {
   useEffect(() => {
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !('MSStream' in window);
     if (isIOS) {
-      setVideoSrc('/images/logo2.mov');
+      setVideoSrc('/images/logo_3.mp4');
     }
   }, []);
 
