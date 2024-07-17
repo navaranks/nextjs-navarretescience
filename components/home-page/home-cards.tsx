@@ -1,12 +1,23 @@
 "use client";
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Skeleton } from '@/components/ui/skeleton';
+
+const isIOS = () => {
+  return /iPad|iPhone|iPod/.test(navigator.userAgent);
+};
 
 function HomeCards() {
   const [chemLoaded, setChemLoaded] = useState(false);
   const [physLoaded, setPhysLoaded] = useState(false);
   const [aboutLoaded, setAboutLoaded] = useState(false);
+  const [isIosDevice, setIsIosDevice] = useState(false);
+
+  useEffect(() => {
+    setIsIosDevice(isIOS());
+  }, []);
+  
+  const getVideoSrc = (basename: string) => isIosDevice ? `${basename}.mp4` : `${basename}.webm`;
 
   return (
     <div className="flex flex-col md:mb-0 md:flex-row">
@@ -16,7 +27,7 @@ function HomeCards() {
       >
         {!chemLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <video
-          src='/images/Chem.webm'
+          src={getVideoSrc('/images/Chem')}
           autoPlay
           muted
           playsInline
@@ -31,7 +42,7 @@ function HomeCards() {
       >
         {!physLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <video
-          src='/images/cradleloop.webm'
+          src={getVideoSrc('/images/cradleloop')}
           autoPlay
           muted
           playsInline
@@ -46,7 +57,7 @@ function HomeCards() {
       >
         {!aboutLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <video
-          src='/images/Aboutlogo.webm'
+          src={getVideoSrc('/images/Aboutlogo')}
           autoPlay
           muted
           playsInline
