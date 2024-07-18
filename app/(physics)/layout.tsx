@@ -1,11 +1,16 @@
 "use client";
+import "../globals.css";
 import BottomNav from "../../components/bottomnav";
 import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faCalendarWeek, faFileCircleInfo, faFolderClosed } from "@fortawesome/pro-solid-svg-icons";
 import { usePathname } from 'next/navigation';
+import { ThemeProvider } from "../../components/ui/theme-provider";
 import { useEffect } from 'react';
+import { Source_Sans_3 } from "next/font/google";
+
+const inter = Source_Sans_3({ subsets: ["latin"] });
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const heroImageLight = "/images/pbanner.webp";
@@ -25,6 +30,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     console.log('Navigation Links:', navLinks);
   }, [pathname]);
   return (
+    <html lang="en" suppressHydrationWarning={true}>
+      <ThemeProvider attribute="class" enableSystem defaultTheme="system" disableTransitionOnChange>
+        <body className={inter.className}>
     <div className="wrapper">
       <main className="main-cointainer">
         <div className="phys-light dark:phys-dark" >
@@ -37,5 +45,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </div>
       </main>
     </div>
+    </body>
+      </ThemeProvider>
+    </html>
   );
 }

@@ -1,7 +1,7 @@
-
-import HeroCard from "@/components/home-page/hero-card";
-import HomeCards from "@/components/home-page/home-cards";
-import IconDivider from "@/components/home-page/icon-divider";
+import React from "react";
+import HeroCard from "../../components/home-page/hero-card";
+import HomeCards from "../../components/home-page/home-cards";
+import IconDivider from "../../components/home-page/icon-divider";
 
 export default function Home() {
   return (

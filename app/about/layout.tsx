@@ -1,7 +1,11 @@
 "use client";
-
+import "../globals.css";
+import { Source_Sans_3 } from "next/font/google";
+import { ThemeProvider } from "../../components/ui/theme-provider";
 import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
+
+const inter = Source_Sans_3({ subsets: ["latin"] });
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const heroImage = "/images/aboutheader.webp";
@@ -9,6 +13,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const bgGradient = 'from-[#AC92EC] to-[#967ADC]';
 
   return (
+    <html lang="en" suppressHydrationWarning={true}>
+      <ThemeProvider attribute="class" enableSystem defaultTheme="system" disableTransitionOnChange>
+        <body className={inter.className}>
     <main className="" >
       <div className="about-light dark:about-dark" >
         <MainNav bgColor={bgGradient}/>
@@ -19,5 +26,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         
       </div>
     </main>
+    </body>
+      </ThemeProvider>
+    </html>
   );
 }
