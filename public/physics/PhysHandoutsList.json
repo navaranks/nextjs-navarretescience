@@ -3,6 +3,7 @@
       "id": 0,
       "title": "Unit 1",
       "subtitle": "Metrics",
+      "disabled": true,
       "handouts": [
         {"title": "Unit 1 Lecture Notes", "url": "/physics/Unit_01_Metrics/Honors_Metrics.pdf"},
         {"title": "Proper Observations", "url": "/physics/Unit_01_Metrics/Observations.pdf"},
@@ -30,6 +31,7 @@
       "id": 1,
       "title": "Unit 2",
       "subtitle": "Kinematics",
+      "disabled": true,
       "handouts": [
         {"title": "Unit 2 Lecture Notes", "url": "/physics/Unit_02_Kinematics/Honors_Matter.pdf"},
         {"title": "Matter Homework", "url": "/physics/Unit_02_Kinematics/MatterHW.pdf"},
@@ -50,6 +52,7 @@
       "id": 2,
       "title": "Unit 3",
       "subtitle": "Vectors",
+      "disabled": true,
       "handouts": [
         {"title": "Unit 3 Lecture Notes", "url": "/physics/Unit_03_Vectors/Reactions_Student_Copy.pdf"},
         {"title": "Classes of Chemical Reactions", "url": "/physics/Unit_03_Vectors/ClassesReactions.pdf"},
@@ -70,6 +73,7 @@
       "id": 3,
       "title": "Unit 4",
       "subtitle": "Forces",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 4 Lecture Notes", "url": "/physics/Unit_04_Forces/Stoichiometry_Student_Copy.pdf"},
           {"title": "Molar Mass Problems", "url": "/physics/Unit_04_Forces/"},
@@ -96,6 +100,7 @@
       "id": 4,
       "title": "Unit 5",
       "subtitle": "Rotational Motion",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 5 Lecture Notes", "url": "/physics/Unit_05_Rotational_Motion/Honors_Atoms_Light.pdf"},
           {"title": "A History of Atomic Structure on Postage Stamps", "url": "/physics/Unit_05_Rotational_Motion/"},
@@ -117,6 +122,7 @@
       "id": 5,
       "title": "Unit 6",
       "subtitle": "Work,Power, Energy",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 6 Lecture Notes", "url": "/physics/Unit_06_Work_Power_Energy/Honors_Periodic.pdf"},
           {"title": "Periodicity Homework #1", "url": "/physics/Unit_06_Work_Power_Energy/Periodicity1.pdf"},
@@ -129,6 +135,7 @@
       "id": 6,
       "title": "Unit 7",
       "subtitle": "Impulse and Momentum",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 7 Lecture Notes", "url": "/physics/Unit_07_Impulse_and_Momentum/Honors_Bonding.pdf"},
           {"title": "Bonding Homework", "url": "/physics/Unit_07_Impulse_and_Momentum/BondingHW.pdf"},
@@ -145,6 +152,7 @@
       "id": 7,
       "title": "Unit 8",
       "subtitle": "Statics",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 8 Lecture Notes", "url": "/physics/Unit_08_Statics/Honors_Gases.pdf"},
           {"title": "Graphical Analysis Lab", "url": "/physics/Unit_08_Statics/GraphicalAnalysisLab.pdf"},
@@ -158,6 +166,7 @@
       "id": 8,
       "title": "Unit 9",
       "subtitle": "Gravity",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 9 Lecture Notes", "url": "/physics/Unit_09_Gravity/Honors_Kinetics.pdf"},
           {"title": "Kinetics Homework #1", "url": "/physics/Unit_09_Gravity/Kinetics1.pdf"},
@@ -173,6 +182,7 @@
       "id": 9,
       "title": "Unit 10",
       "subtitle": "Thermodynamics",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 10 Lecture Notes", "url": "/physics/Unit_10_Thermodynamics/Honors_Equilibrium.pdf"},
           {"title": "Le Chetalier's Principle Homework #1", "url": "/physics/Unit_10_Thermodynamics/LeChatelier.pdf"},
@@ -187,6 +197,7 @@
       "id": 10,
       "title": "Unit 11",
       "subtitle": "Electrostatics",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 11 Lecture Notes", "url": "/physics/Unit_11_Electrostatics/Honors_Acids.pdf"},
           {"title": "Conjugate Acids and Bases", "url": "/physics/Unit_11_Electrostatics/ConjugatePairs.pdf"},
@@ -208,6 +219,7 @@
       "id": 11,
       "title": "Unit 12",
       "subtitle": "Electric Fields",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 12 Lecture Notes", "url": "/physics/Unit_12_Electric_Fields/Honors_Thermo.pdf"},
           {"title": "Heat Problems #1", "url": "/physics/Unit_12_Electric_Fields/Heatproblems.pdf"},
@@ -226,6 +238,7 @@
       "id": 12,
       "title": "Unit 13",
       "subtitle": "Electric Potential",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 13 Lecture Notes", "url": "/physics/Unit_13_Electric_Potential/Honors_Electrochemistry.pdf"},
           {"title": "Redox Homework #1 'Reactions'", "url": "/physics/Unit_13_Electric_Potential/redox1.pdf"},
@@ -240,6 +253,7 @@
       "id": 13,
       "title": "Unit 14",
       "subtitle": "Circuits",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 14 Lecture Notes", "url": "/physics/Unit_14_Circuits/Honors_Organic.pdf"},
           {"title": "Functional Group Handout", "url": "/physics/Unit_14_Circuits/Functionalgroups.pdf"},
@@ -258,6 +272,7 @@
       "id": 14,
       "title": "Unit 15",
       "subtitle": "Electricity and Magnetism",
+      "disabled": true,
       "handouts": [
           {"title": "Unit 15 Lecture Notes", "url": "/physics/Unit_15_Electricity_and_Magnetism/"},
           {"title": "Decay Equations", "url": "/physics/Unit_15_Electricity_and_Magnetism/NuclearDecayPractice.pdf"},
