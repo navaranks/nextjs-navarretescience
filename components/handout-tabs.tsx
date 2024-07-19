@@ -16,6 +16,7 @@ interface TabData {
   title: string;
   subtitle: string;
   content: React.ReactNode;
+  disabled?: boolean;
 }
 
 interface HandoutTabsProps {
@@ -72,6 +73,7 @@ const HandoutTabs: React.FC<HandoutTabsProps> = ({ tabsData, borderColor }) => {
           <button
             key={tab.id}
             data-id={tab.id.toString()}
+            disabled={tab.disabled}
             className={`px-4 py-5 w-24 h-20 flex-grow justify-center hover:rounded-lg hover:bg-accent hover:via-red-900 hover:to-red-800 active:shadow-[-1px_0px_1px_0px_#b7323f_inset,1px_0px_1px_0px_#b7323f_inset,0px_0.125rem_1px_0px_#c73a4d_inset] ${value === tab.id ? "font-extrabold text-primary" : ""}`}
             onClick={() => handleChange(tab.id)}
           >
@@ -96,7 +98,7 @@ const HandoutTabs: React.FC<HandoutTabsProps> = ({ tabsData, borderColor }) => {
           <SelectGroup>
             <SelectLabel>Handouts for</SelectLabel>
             {tabsData.map((tab) => (
-              <SelectItem key={tab.id} value={tab.id.toString()}>
+              <SelectItem key={tab.id} value={tab.id.toString()} disabled={tab.disabled}>
                 {tab.title + " - " + tab.subtitle}
               </SelectItem>
             ))}
@@ -106,7 +108,7 @@ const HandoutTabs: React.FC<HandoutTabsProps> = ({ tabsData, borderColor }) => {
 
       {/* Content */}
       <div className="flex-grow py-4 md:py-0">
-        <div className="sticky top-0">{tabsData.find((tab) => tab.id === value)?.content}</div>
+        <div className="sticky top-0">{tabsData.find((tab) => tab.id === value && !tab.disabled)?.content}</div>
       </div>
     </div>
   );
