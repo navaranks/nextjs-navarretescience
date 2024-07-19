@@ -19,7 +19,7 @@ const HonorsSchedulePage = () => {
 
     return (
         <main>
-            <ClassSchedule scheduleData={scheduleData} />
+            {/* <ClassSchedule scheduleData={scheduleData} /> */}
         </main>
     );
 };
