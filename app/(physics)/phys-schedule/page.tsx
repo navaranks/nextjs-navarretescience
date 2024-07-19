@@ -1,26 +1,19 @@
 import ClassSchedule from "@/components/class-schedule";
 import { Metadata } from "next";
-import fs from 'fs';
-import path from 'path';
 
-// Function to read the JSON file
-const getScheduleData = () => {
-  const filePath = path.resolve('public', 'schedule', 'honors-physics-schedule.json'); // Adjust path as necessary
-  const fileContents = fs.readFileSync(filePath, 'utf8');
-  return JSON.parse(fileContents);
-};
+
 
 export const metadata: Metadata = {
-    title: 'Physics Schedule',
-  }
-const SchedulePage = () => {
-    const scheduleData = getScheduleData();
-
-    return (
-        <main>
-            <ClassSchedule scheduleData={scheduleData} />
-        </main>
-    );
+  title: 'Honors Chemistry Schedule',
 }
+const HonorsPhysSchedulePage = () => {
+  const apiURL = 'https://script.google.com/macros/s/AKfycbz7nfc5IGy81-mFpgHS2mnJcysrjylojSu_N53CCYD4hHHsaMaUWw_Imz5RL3PHEXL4/exec';
+  
 
-export default SchedulePage;
+  return(
+      <main>
+          <ClassSchedule apiURL={apiURL} />
+      </main>
+  );
+}
+export default HonorsPhysSchedulePage;
