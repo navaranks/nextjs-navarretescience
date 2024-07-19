@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const Image1 = "/images/aboutme1.webp";
 const Image2 = "/images/aboutme2.webp";
-const Image3 = "/images/pc.webm";
+const Image3 = "/images/pc";
 
 function page() {
   return (
