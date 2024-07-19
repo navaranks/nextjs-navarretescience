@@ -14,6 +14,7 @@ const PhysHandouts = () => {
     id: unit.id,
     title: unit.title,
     subtitle: unit.subtitle,
+    disabled: unit.disabled,
     content: <UnitTable key={unit.id} unitTitle={unit.title} unitSubtitle={unit.subtitle} handouts={unit.handouts} />
   }));
 
