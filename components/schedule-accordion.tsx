@@ -18,7 +18,7 @@ interface ScheduleAccordionProps {
 const ScheduleAccordion: React.FC<ScheduleAccordionProps> = ({ schedule, isLast }) => {
   
   return (
-    <Accordion type="single" collapsible defaultValue={isLast ? `item-${schedule.tableid}` : undefined}  className="w-full space-y-2 bg-card flex-col">
+    <Accordion type="single" collapsible defaultValue={isLast ? `item-${schedule.tableid}` : undefined}  className={`w-full space-y-2 bg-card flex-col ${schedule.displayWeek === 'yes' ? '' : 'hidden'}`}>
       <AccordionItem className="rounded-lg border-primary bg-primary " value={`item-${schedule.tableid}`}>
         <AccordionTrigger className="bg-primary text-white rounded-lg  hover:bg-input px-4">
           <span className="flex-1 font-bold text-center">Week {schedule.tableid}: {schedule.week}</span>

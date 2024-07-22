@@ -17,6 +17,7 @@ export interface ScheduleData {
   season: string;
   tableid: number;
   week: string;
+  displayWeek: string;
   days: ScheduleDay[];
 }
 

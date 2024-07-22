@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: 'Honors Chemistry Schedule',
 }
 const HonorsPhysSchedulePage = () => {
-  const apiURL = 'https://script.google.com/macros/s/AKfycbz7nfc5IGy81-mFpgHS2mnJcysrjylojSu_N53CCYD4hHHsaMaUWw_Imz5RL3PHEXL4/exec';
+  const apiURL = process.env.NEXT_PUBLIC_HONORS_PHYSICS_API_URL!;
   
 
   return(
