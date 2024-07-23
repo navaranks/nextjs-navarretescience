@@ -60,11 +60,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       isActive: pathname === "/chem-info",
     },
     {
-      href: "/chem-handouts",
+      href: "/(chem-handouts)",
       label: "Handouts",
       icon: <FontAwesomeIcon icon={faFolderClosed} size="lg" />,
-      isActive: pathname === "/chem-handouts",
-    },
+      isActive: pathname.startsWith("/chem-handouts"),
+      sublinks: [
+        {
+          href: "/chem-handouts/handouts",
+          label: "Handouts",
+          isActive: pathname === "/chem-handouts/handouts",
+        },
+        {
+          href: "/chem-handouts/practice-tests",
+          label: "Practice Tests",
+          isActive: pathname === "/chem-handouts/practice-tests",
+        },
+      ]
+    }
   ];
 
   useEffect(() => {

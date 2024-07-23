@@ -1,9 +1,12 @@
 import React from "react";
 import Polaroid from "@/components/polaroid";
 import PolaroidVideo from "@/components/polaroid-video";
-import { Card, CardContent, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import AboutQuickLinks from "@/components/about/aboutquicklinks";
 import { Metadata } from "next";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { TabsContent } from "@radix-ui/react-tabs";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 export const metadata: Metadata = {
   title: 'About Mr.Navarrete',
@@ -140,7 +143,7 @@ function page() {
       </div>
       <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
-          <CardTitle className="text-xl font-extrabold text-center text-[#967ADC] p-4 text-balance">
+          <CardTitle className="text-xl font-extrabold text-center text-primary p-4 text-balance">
             Education is my main goal, and I want to be able to connect the
             material we are learning in the classroom to various experiences and
             interests in each student's lives. If you want to know more about
