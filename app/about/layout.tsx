@@ -5,6 +5,10 @@ import { ThemeProvider } from "../../components/ui/theme-provider";
 import PageHero from "../../components/pagehero";
 import MainNav from "../../components/mainnav";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
+
 
 const inter = Source_Sans_3({ subsets: ["latin"] });
 

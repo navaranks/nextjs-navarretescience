@@ -17,6 +17,9 @@ import BottomMenu from "@/components/bottommenu";
 import { ThemeProvider } from "next-themes";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Source_Sans_3 } from "next/font/google";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 const inter = Source_Sans_3({ subsets: ["latin"] });
 

@@ -4,9 +4,7 @@ import PolaroidVideo from "@/components/polaroid-video";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import AboutQuickLinks from "@/components/about/aboutquicklinks";
 import { Metadata } from "next";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { TabsContent } from "@radix-ui/react-tabs";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+
 
 export const metadata: Metadata = {
   title: 'About Mr.Navarrete',
@@ -16,7 +14,7 @@ const Image1 = "/images/aboutme1.webp";
 const Image2 = "/images/aboutme2.webp";
 const Image3 = "/images/pc";
 
-function page() {
+function AboutMePage() {
   return (
     <main className="flex flex-col  gap-y-2">
       <div className=" px-4 bg-background">
@@ -157,4 +155,4 @@ function page() {
   );
 }
 
-export default page;
+export default AboutMePage;
