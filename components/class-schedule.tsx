@@ -1,37 +1,25 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import useSWR from 'swr';
 import Schedule, { ScheduleData } from './schedule'; // Import Schedule and ScheduleData
 import ScheduleCard from './schedule-card';
 
 interface ClassScheduleProps {
   apiURL: string;
+  prefetchedData: ScheduleData[];
 }
 
-export default function ClassSchedule({apiURL}: ClassScheduleProps) {
-    const [scheduleData, setScheduleData] = useState<ScheduleData[] | null>(null);
-    const [isLoading, setIsLoading] = useState(true);
+const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
-    useEffect(() => {
-       // This will show what URL is received
-      if (!apiURL) return;
-      fetch(apiURL)
-          .then(response => response.json())
-          .then(data => {
-              setScheduleData(data);
-              setIsLoading(false);
-          })
-          .catch(error => {
-              console.error('Error fetching schedule:', error);
-              setIsLoading(false);
-          });
-  }, [apiURL]); // apiURL is a dependency here
-  
+export default function ClassSchedule({ apiURL, prefetchedData }: ClassScheduleProps) {
+  const { data, error } = useSWR<ScheduleData[]>(apiURL, fetcher);
 
-    return (
-        <main className='flex flex-col px-4 gap-y-4'>
-            <ScheduleCard />
-            <Schedule isLoading={isLoading} scheduleData={scheduleData}/>
-        </main>
-    );
+  const scheduleData = data || prefetchedData;
+
+  return (
+    <main className='flex flex-col px-4 gap-y-4'>
+      <ScheduleCard />
+      <Schedule isLoading={!data && !error} scheduleData={scheduleData} />
+    </main>
+  );
 }
