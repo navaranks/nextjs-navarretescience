@@ -1,15 +1,15 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import HonorsPracticeTestData from '@/public/chemistry/Practice_Tests/Honors_Chem_Practice_Tests.json';
-import RegularPracticeTestData from '@/public/chemistry/Practice_Tests/Regular_Chem_Practice_Tests.json';
+import ChemPracticeTestData from '@/public/chemistry/Practice_Tests/Chem_Practice_Tests.json';
+
 import { Metadata } from 'next';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+
 import { Table, TableHeader, TableRow, TableHead, TableBody, TableCell } from '@/components/ui/table';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Chemistry Practice Tests',
-}
+};
 
 const ChemPracticeTests = () => {
   return (
@@ -22,64 +22,38 @@ const ChemPracticeTests = () => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <Tabs defaultValue="honors">
-            <TabsList className="w-full grid grid-cols-2 mx-auto h-auto">
-              <TabsTrigger value="honors" className="w-full text-pretty text-xl data-[state=active]:bg-primary data-[state=active]:text-white">Honors Chemistry</TabsTrigger>
-              <TabsTrigger value="regular" className="w-full text-pretty text-xl data-[state=active]:bg-primary data-[state=active]:text-white">Regular Chemistry</TabsTrigger>
-            </TabsList>
-            <TabsContent value="honors">
-              <Card>
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className='hidden md:table-cell text-right font-extrabold text-2xl text-primary vertical-middle py-2'>Unit</TableHead>
-                      <TableHead className='hidden md:table-cell text-left font-extrabold text-2xl text-primary vertical-middle py-2'>Subject</TableHead>
-                      <TableHead className='hidden md:table-cell text-center font-extrabold text-2xl text-primary vertical-middle py-2'>PDF</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {HonorsPracticeTestData.map(unit => (
-                      <TableRow key={unit.id} className='odd:bg-secondary/50'>
-                        <TableCell className="text-center md:text-right block md:table-cell">{unit.title}</TableCell>
-                        <TableCell className="text-center md:text-left block md:table-cell">{unit.subtitle}</TableCell>
-                        <TableCell className="text-center md:text-center block md:table-cell">
-                          <Link href={unit.handouts[0].url} legacyBehavior>
-                            <a className="text-primary hover:underline hover:decoration-wavy">{unit.handouts[0].title}</a>
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead className="hidden md:table-cell text-right font-extrabold text-2xl text-primary py-2">Unit</TableHead>
+                <TableHead className="hidden md:table-cell text-left font-extrabold text-2xl text-primary py-2">Subject</TableHead>
+                <TableHead className="hidden md:table-cell text-center font-extrabold text-2xl text-primary py-2">PDF</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {ChemPracticeTestData.map(({ id, title, subtitle, handouts }) => (
+                <TableRow key={id} className="odd:bg-secondary/50">
+                  <TableCell className="text-center text-lg font-semibold md:text-right hidden md:table-cell">{title}</TableCell>
+                  <TableCell className="text-center text-lg font-semibold md:text-left hidden md:table-cell">{subtitle}</TableCell>
+                  <TableCell className="text-center text-lg font-semibold md:text-left block md:hidden">{title} : {subtitle}</TableCell>
+                  <TableCell className="text-center text-lg font-semibold md:text-center block md:table-cell">
+                    {handouts.map((handout, index) => (
+                      <React.Fragment key={index}>
+                        {handout.url ? (
+                          <Link href={handout.url} legacyBehavior>
+                            <a className="text-primary hover:underline hover:decoration-wavy">{handout.title}</a>
                           </Link>
-                        </TableCell>
-                      </TableRow>
+                        ) : (
+                          <span className="text-muted-foreground">{handout.title}</span>
+                        )}
+                        {index < handouts.length - 1 && ' / '}
+                      </React.Fragment>
                     ))}
-                  </TableBody>
-                </Table>
-              </Card>
-            </TabsContent>
-            <TabsContent value="regular">
-              <Card>
-                <Table>
-                  <TableHeader>
-                    <TableRow>
-                      <TableHead className='hidden md:table-cell text-right font-extrabold text-2xl text-primary vertical-middle py-2'>Unit</TableHead>
-                      <TableHead className='hidden md:table-cell text-left font-extrabold text-2xl text-primary vertical-middle py-2'>Subject</TableHead>
-                      <TableHead className='hidden md:table-cell text-center font-extrabold text-2xl text-primary vertical-middle py-2'>PDF</TableHead>
-                    </TableRow>
-                  </TableHeader>
-                  <TableBody>
-                    {RegularPracticeTestData.map(unit => (
-                      <TableRow key={unit.id} className='odd:bg-secondary/50'>
-                        <TableCell className="text-center md:text-right block md:table-cell">{unit.title}</TableCell>
-                        <TableCell className="text-center md:text-left block md:table-cell">{unit.subtitle}</TableCell>
-                        <TableCell className="text-center md:text-center block md:table-cell">
-                          <Link href={unit.handouts[0].url} legacyBehavior>
-                            <a className="text-primary hover:underline hover:decoration-wavy">{unit.handouts[0].title}</a>
-                          </Link>
-                        </TableCell>
-                      </TableRow>
-                    ))}
-                  </TableBody>
-                </Table>
-              </Card>
-            </TabsContent>
-          </Tabs>
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
         </CardContent>
       </Card>
     </main>
