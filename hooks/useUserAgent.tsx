@@ -11,7 +11,8 @@ export default function useUserAgent() {
 
             // Check if the device is iOS
             const isIOS = /iPhone|iPad|iPod/i.test(userAgentString);
-            if (isIOS) {
+            const isIPadOS = /Macintosh/i.test(userAgentString) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
+            if (isIOS || isIPadOS) {
                 setUserAgent('ios');
                 setIsMobile(true);
             }

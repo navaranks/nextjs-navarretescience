@@ -7,21 +7,26 @@ interface PolaroidProps {
   Caption: string;
 }
 
-const isIOS = () => {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent);
+// iOS and iPadOS Detection Function
+const isIOSOrIPadOS = () => {
+  const userAgent = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !('MSStream' in window);
+  const isIPadOS = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
+  
+  return isIOS || isIPadOS;
 };
 
 export default function PolaroidVideo({
   PolaroidImage,
   Caption,
 }: PolaroidProps) {
-  const [isIosDevice, setIsIosDevice] = useState(false);
+  const [isIosOrIpadDevice, setIsIosOrIpadDevice] = useState(false);
 
   useEffect(() => {
-    setIsIosDevice(isIOS());
+    setIsIosOrIpadDevice(Boolean(isIOSOrIPadOS()));
   }, []);
 
-  const getVideoSrc = (basename: string) => isIosDevice ? `${basename}.mp4` : `${basename}.webm`;
+  const getVideoSrc = (basename: string) => isIosOrIpadDevice ? `${basename}.mp4` : `${basename}.webm`;
 
   return (
     <Card className="max-w-md md:max-w-sm w-full shadow-lg m-auto bg-muted">

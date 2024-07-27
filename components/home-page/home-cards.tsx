@@ -3,21 +3,26 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { Skeleton } from '@/components/ui/skeleton';
 
-const isIOS = () => {
-  return /iPad|iPhone|iPod/.test(navigator.userAgent);
+// iOS and iPadOS Detection Function
+const isIOSOrIPadOS = () => {
+  const userAgent = navigator.userAgent;
+  const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !('MSStream' in window);
+  const isIPadOS = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
+  
+  return isIOS || isIPadOS;
 };
 
 function HomeCards() {
   const [chemLoaded, setChemLoaded] = useState(false);
   const [physLoaded, setPhysLoaded] = useState(false);
   const [aboutLoaded, setAboutLoaded] = useState(false);
-  const [isIosDevice, setIsIosDevice] = useState(false);
+  const [isIosOrIpadDevice, setIsIosOrIpadDevice] = useState(false);
 
   useEffect(() => {
-    setIsIosDevice(isIOS());
+    setIsIosOrIpadDevice(Boolean(isIOSOrIPadOS()));
   }, []);
-  
-  const getVideoSrc = (basename: string) => isIosDevice ? `${basename}.mp4` : `${basename}.webm`;
+
+  const getVideoSrc = (basename: string) => isIosOrIpadDevice ? `${basename}.mp4` : `${basename}.webm`;
 
   return (
     <div className="flex flex-col md:mb-0 md:flex-row">
@@ -34,6 +39,7 @@ function HomeCards() {
           loop
           className={`w-64 mx-auto ${chemLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setChemLoaded(true)}
+          onError={() => setChemLoaded(false)} // Ensure it’s set to a boolean
         />
       </Link>
       <Link
@@ -49,6 +55,7 @@ function HomeCards() {
           loop
           className={`w-64 mx-auto ${physLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setPhysLoaded(true)}
+          onError={() => setPhysLoaded(false)} // Ensure it’s set to a boolean
         />
       </Link>
       <Link
@@ -64,6 +71,7 @@ function HomeCards() {
           loop
           className={`w-64 mx-auto ${aboutLoaded ? 'block' : 'hidden'}`}
           onCanPlayThrough={() => setAboutLoaded(true)}
+          onError={() => setAboutLoaded(false)} // Ensure it’s set to a boolean
         />
       </Link>
     </div>
