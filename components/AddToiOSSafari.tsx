@@ -33,8 +33,8 @@ export default function AddToiOSSafari(props: Props) {
           className="mx-auto"
         />
         <SheetHeader>
-          <SheetTitle className="text-pretty">Add Navarrete Science to your Home Screen</SheetTitle>
-          <SheetDescription className="text-pretty">
+          <SheetTitle className="text-pretty mx-auto md:text-center">Add Navarrete Science to your Home Screen</SheetTitle>
+          <SheetDescription className="text-pretty md:text-center">
             Install Navarrete Science, and access it like a regular app. Open your Safari menu and tap "Add to Home Screen".
           </SheetDescription>
         </SheetHeader>
