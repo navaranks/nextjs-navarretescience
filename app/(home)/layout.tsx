@@ -22,7 +22,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <ThemeProvider attribute="class" enableSystem defaultTheme="system" disableTransitionOnChange>
-        <body className={inter.className}>{children}</body>
+        <body className={`${inter.className} h-dvh bg-neutral-900`}>{children}</body>
       </ThemeProvider>
       <SpeedInsights />
     </html>
