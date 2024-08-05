@@ -47,3 +47,5 @@ next-env.d.ts
 **/public/worker-*.js.map
 
 /app/(physics)/phys-schedule/page.tsx
+/app/(chemistry)/chem-schedule/honors/page.tsx
+/app/(chemistry)/chem-schedule/regular/page.tsx
