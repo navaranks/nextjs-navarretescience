@@ -63,7 +63,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       isActive: pathname === "/chem-info",
     },
     {
-      href: "/(chem-handouts)",
+      href: "/chem-handouts",
       label: "Handouts",
       icon: <FontAwesomeIcon icon={faFolderClosed} size="lg" />,
       isActive: pathname.startsWith("/chem-handouts"),
