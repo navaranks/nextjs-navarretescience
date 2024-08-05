@@ -34,14 +34,14 @@ export default function AddToMobileChrome(props: Props) {
           className="mx-auto"
         />
         <SheetHeader>
-          <SheetTitle className="text-pretty">Add Navarrete Science to your Home Screen</SheetTitle>
-          <SheetDescription className="text-pretty">
+          <SheetTitle className="text-pretty mx-auto">Add Navarrete Science to your Home Screen</SheetTitle>
+          <SheetDescription className="text-pretty mx-auto">
             Install Navarrete Science, and access it like a regular app.
           </SheetDescription>
           <SheetDescription className="text-balance mx-auto">
             <span className="flex flex-row items-center">Click the <EllipsisVerticalIcon /> icon</span> 
           </SheetDescription>
-          <SheetDescription className="text-balance ">
+          <SheetDescription className="text-balance mx-auto ">
             and then "Add to Home Screen".
           </SheetDescription>
         </SheetHeader>

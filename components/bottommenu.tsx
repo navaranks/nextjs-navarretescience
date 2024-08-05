@@ -43,12 +43,12 @@ const ListItem = React.forwardRef<
           ref={ref}
           href={href} // Ensure href is passed correctly
           className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:underline hover:decoration-wavy hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
+            "block select-none space-y-1  rounded-md p-3 leading-none no-underline outline-none transition-colors hover:underline hover:decoration-wavy hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground",
             isActive ? "bg-accent text-accent-foreground" : "", // Conditional class for active state
             className
           )}
         >
-          <div className="text-sm font-medium leading-none">{title}</div>
+          <div className="text-sm font-medium leading-none max-[518px]:w-20 max-[518px]:h-7 ">{title}</div>
           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
             {children}
           </p>
