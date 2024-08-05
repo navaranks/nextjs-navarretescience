@@ -2,7 +2,7 @@ import ClassSchedule from "@/components/class-schedule";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Honors Chemistry Schedule",
+  title: "Honors Physics Schedule",
 };
 const HonorsPhysSchedulePage = async () => {
   const apiURL = process.env.NEXT_PUBLIC_HONORS_PHYSICS_API_URL!;
