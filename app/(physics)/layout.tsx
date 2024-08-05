@@ -17,6 +17,7 @@ import { Source_Sans_3 } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import BottomMenu from "@/components/bottommenu";
 config.autoAddCss = false;
 
 const inter = Source_Sans_3({ subsets: ["latin"] });
@@ -51,8 +52,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       href: "/phys-handouts",
       label: "Handouts",
       icon: <FontAwesomeIcon icon={faFolderClosed} size="lg" />,
-      isActive: pathname === "/phys-handouts",
-    },
+      isActive: pathname.startsWith("/phys-handouts"),
+      sublinks: [
+        {
+          href: "/phys-handouts/handouts",
+          label: "Handouts",
+          isActive: pathname === "/phys-handouts/handouts",
+        },
+        {
+          href: "/phys-handouts/practice-tests",
+          label: "Practice Tests",
+          isActive: pathname === "/phys-handouts/practice-tests",
+        },
+        {
+          href: "/phys-handouts/videos",
+          label: "Lesson Videos",
+          isActive: pathname === "/phys-handouts/videos",
+        },
+      ]
+    }
   ];
   useEffect(() => {
     console.log("Current Path:", pathname);
@@ -78,7 +96,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <section className="bg-background min-h-fit h-full">
                   <div className="last:pb-24 md:last:pb-28">{children}</div>
                 </section>
-                <BottomNav links={navLinks} activeColor={activeColor} />
+                <BottomMenu
+                  links={navLinks.map((link) => ({
+                    ...link,
+                    sublinks: link.sublinks
+                      ? link.sublinks.map((sublink) => ({
+                          ...sublink,
+                          icon: link.icon,
+                        }))
+                      : undefined,
+                  }))}
+                  activeColor={activeColor}
+                />
               </div>
             </main>
           </div>
