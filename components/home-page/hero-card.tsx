@@ -1,53 +1,33 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
+import React, { useState } from 'react';
+import Image from 'next/image';
 import { Card, CardContent } from '../ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 
 function HeroCard() {
-  const [videoLoaded, setVideoLoaded] = useState(false);
-  const [videoError, setVideoError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-  const videoSrc = useMemo(() => {
-    if (typeof window !== 'undefined' && typeof navigator !== 'undefined') {
-      const userAgent = navigator.userAgent;
-      const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !('MSStream' in window);
-      const isIPadOS = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
-
-      if (isIOS || isIPadOS) {
-        return '/images/logo_3.mp4';
-      } else {
-        return '/images/logo2.webm';
-      }
-    }
-    return '';
-  }, []);
-
-  const handleVideoLoad = () => {
-    setVideoLoaded(true);
-  };
-
-  const handleVideoError = () => {
-    setVideoError(true);
+  const handleImageLoad = () => {
+    setImageLoaded(true);
   };
 
   return (
     <Card className="text-center bg-transparent border-none p-4">
       <CardContent className="p-0">
-        {!videoLoaded && !videoError && <Skeleton className="h-64 w-[600px] mx-auto" />}
-        {videoError && <div className="h-64 w-[600px] mx-auto flex items-center justify-center">Video failed to load</div>}
-        {videoSrc && (
-          <video
-            src={videoSrc}
-            autoPlay
-            muted
-            playsInline
-            loop
-            className={`mx-auto md:w-1/2 ${videoLoaded ? 'block' : 'hidden'}`}
-            onCanPlayThrough={handleVideoLoad}
-            onError={handleVideoError}
-          />
-        )}
+        {!imageLoaded && <Skeleton className="h-64 w-[600px] mx-auto" />}
+        <div className='w-full md:w-1/2 mx-auto'>
+        <Image
+          src="/images/compressedlogo.gif"
+          alt="Hero Image"
+          width={1600}
+          height={500}
+          onLoadingComplete={handleImageLoad}
+          loading='eager'
+          style={{width: '100%', height: '100%'}}
+          className={` ${imageLoaded ? 'block' : 'hidden'}`}
+        />
+        </div>
       </CardContent>
     </Card>
   );

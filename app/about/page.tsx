@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 const Image1 = "/images/aboutme1.webp";
 const Image2 = "/images/aboutme2.webp";
-const Image3 = "/images/pc";
+const Image3 = "/images/pc.gif";
 
 function AboutMePage() {
   return (
@@ -85,7 +85,7 @@ function AboutMePage() {
       <div className=" px-4 bg-background">
         <Card className="max-w-screen-xl mx-auto">
           <CardContent className="px-4 py-3 flex flex-col md:flex-row gap-2">
-            <PolaroidVideo PolaroidImage={Image3} Caption="Guess the specs?" />
+            <Polaroid PolaroidImage={Image3} Caption="Guess the specs?" variant="default" />
             <div className="w-full md:w-1/2 px-4 py-3 m-auto gap-y-4">
               <p className=" text-base text-pretty">
                 A few things about me:
