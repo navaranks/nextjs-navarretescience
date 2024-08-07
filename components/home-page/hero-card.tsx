@@ -1,26 +1,26 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Card, CardContent } from '../ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
 
 function HeroCard() {
   const [videoLoaded, setVideoLoaded] = useState(false);
   const [videoError, setVideoError] = useState(false);
-  const [videoSrc, setVideoSrc] = useState('');
 
-  useEffect(() => {
+  const videoSrc = useMemo(() => {
     if (typeof window !== 'undefined' && typeof navigator !== 'undefined') {
       const userAgent = navigator.userAgent;
       const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !('MSStream' in window);
       const isIPadOS = /Macintosh/i.test(userAgent) && navigator.maxTouchPoints && navigator.maxTouchPoints > 1;
 
       if (isIOS || isIPadOS) {
-        setVideoSrc('/images/logo_3.mp4');
+        return '/images/logo_3.mp4';
       } else {
-        setVideoSrc('/images/logo2.webm');
+        return '/images/logo2.webm';
       }
     }
+    return '';
   }, []);
 
   const handleVideoLoad = () => {
