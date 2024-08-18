@@ -1,269 +1,269 @@
 [
-  {
-    "id": 0,
-    "title": "Unit 1",
-    "subtitle": "Metrics",
-    "handouts": [
-      {"title": "Unit 1 Lecture Notes", "url": "/chemistry/Unit_01_Metrics/Honors_Metrics.pdf"},
-      {"title": "Proper Observations", "url": "/chemistry/Unit_01_Metrics/Observations.pdf"},
-      {"title": "Instructions for Typing Special Characters", "url": "/chemistry/Unit_01_Metrics/Typing.pdf"},
-      {"title": "Density of Water Lab", "url": "/chemistry/Unit_01_Metrics/densitywater.pdf"},
-      {"title": "Metric Prefixes Handout", "url": "/chemistry/Unit_01_Metrics/Prefix.pdf"},
-      {"title": "Metrics #1", "url": "/chemistry/Unit_01_Metrics/Metric1.pdf"},
-      {"title": "Metrics #2", "url": "/chemistry/Unit_01_Metrics/Metric2.pdf"},
-      {"title": "Metrics #3", "url": "/chemistry/Unit_01_Metrics/Metric3.pdf"},
-      {"title": "Significant Digits Rules", "url": "/chemistry/Unit_01_Metrics/sigfigrules.pdf"},
-      {"title": "Math for Chemistry", "url": "/chemistry/Unit_01_Metrics/MathforChemistry.pdf"},
-      {"title": "Math for Chemistry #2", "url": "/chemistry/Unit_01_Metrics/MathforChemistry2.pdf"},
-      {"title": "Density Problems", "url": "/chemistry/Unit_01_Metrics/DensityProblembs.pdf"},
-      {"title": "Density Lab", "url": "/chemistry/Unit_01_Metrics/density.pdf"},
-      {"title": "Aluminum Foil Lab", "url": "/chemistry/Unit_01_Metrics/aluminum.pdf"},
-      {"title": "Graphing With Excel", "url": "/chemistry/Unit_01_Metrics/GraphingWithExcel2011.pdf"},
-      {"title": "How to Make a Good Science Graph", "url": "/chemistry/Unit_01_Metrics/GraphingRubric.pdf"},
-      {"title": "RTQ#1 (Read the Question)", "url": "/chemistry/Unit_01_Metrics/RTQ1.pdf"},
-      {"title": "RTQ#2 (Read the Question)", "url": "/chemistry/Unit_01_Metrics/RTQ2.pdf"},
-      {"title": "RTG (Read the Graph)", "url": "/chemistry/Unit_01_Metrics/RTG.pdf"},
-      {"title": "The Art of Solving Problems", "url": "/chemistry/Unit_01_Metrics/Artofsolvingproblems.pdf"}
-    ]
-  },
-  {
-    "id": 1,
-    "title": "Unit 2",
-    "subtitle": "Matter",
-    "handouts": [
-      {"title": "Unit 2 Lecture Notes", "url": "/chemistry/Unit_02_Matter/Honors_Matter.pdf"},
-      {"title": "Matter Homework", "url": "/chemistry/Unit_02_Matter/MatterHW.pdf"},
-      {"title": "Paper Chromatography Lab", "url": "/chemistry/Unit_02_Matter/PaperChromatography.pdf"},
-      {"title": "Four Liquids Lab", "url": "/chemistry/Unit_02_Matter/FourLiquids.pdf"},
-      {"title": "Nomenclature Simplified", "url": "/chemistry/Unit_02_Matter/Nomenclature.pdf"},
-      {"title": "Formula Grid Homework #1", "url": "/chemistry/Unit_02_Matter/FormulaGrid1.pdf"},
-      {"title": "Formula Grid Homework #2", "url": "/chemistry/Unit_02_Matter/FormulaGrid2.pdf"},
-      {"title": "Formula Grid Homework #3", "url": "/chemistry/Unit_02_Matter/FormulaGrid3.pdf"},
-      {"title": "Formula Grid Homework #4", "url": "/chemistry/Unit_02_Matter/FormulaGrid4.pdf"},
-      {"title": "Chemical Formulas and Nomenclature Homework #1", "url": "/chemistry/Unit_02_Matter/Nomenclature1.pdf"},
-      {"title": "Chemical Formulas and Nomenclature Homework #2", "url": "/chemistry/Unit_02_Matter/Nomenclature2.pdf"},
-      {"title": "Chemical Formulas and Nomenclature Homework #3", "url": "/chemistry/Unit_02_Matter/Nomenclature3.pdf"},
-      {"title": "Chemical Change Lab", "url": "/chemistry/Unit_02_Matter/Chemical_PhysicalChange.pdf"}
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Unit 3",
-    "subtitle": "Chemical Reactions",
-    "handouts": [
-      {"title": "Unit 3 Lecture Notes", "url": "/chemistry/Unit_3_Chemical_Reactions/Reactions_Student_Copy.pdf"},
-      {"title": "Classes of Chemical Reactions", "url": "/chemistry/Unit_3_Chemical_Reactions/ClassesReactions.pdf"},
-      {"title": "Balancing Equations #1", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing1.pdf"},
-      {"title": "Balancing Equations #2", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing2.pdf"},
-      {"title": "Balancing Equations #3", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing3.pdf"},
-      {"title": "Worksheet of Word Equations", "url": "/chemistry/Unit_3_Chemical_Reactions/WordEquations.pdf"},
-      {"title": "Lab for Balancing with Models", "url": "/chemistry/Unit_3_Chemical_Reactions/BalancingModels.pdf"},
-      {"title": "Reaction Prediction Homework #1", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction1.pdf"},
-      {"title": "Reaction Prediction Homework #2", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction2.pdf"},
-      {"title": "Reaction Prediction Homework #3", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction3.pdf"},
-      {"title": "Activity Series Lab", "url": "/chemistry/Unit_3_Chemical_Reactions/ActivitySeries.pdf"},
-      {"title": "Precipitation Homework", "url": "/chemistry/Unit_3_Chemical_Reactions/PrecipitateHW.pdf"},
-      {"title": "Precipitate Lab", "url": "/chemistry/Unit_3_Chemical_Reactions/PrecipitationLab.pdf"}
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Unit 4",
-    "subtitle": "Stoichiometry and The Mole",
-    "handouts": [
+    {
+      "id": 0,
+      "title": "Unit 1",
+      "subtitle": "Metrics",
+      "handouts": [
+        {"title": "Unit 1 Lecture Notes", "url": "/chemistry/Unit_01_Metrics/Honors_Metrics.pdf"},
+        {"title": "Aluminum Foil Lab", "url": "/chemistry/Unit_01_Metrics/aluminum.pdf"},
+        {"title": "Density Lab", "url": "/chemistry/Unit_01_Metrics/density.pdf"},
+        {"title": "Density of Water Lab", "url": "/chemistry/Unit_01_Metrics/densitywater.pdf"},
+        {"title": "Density Problems", "url": "/chemistry/Unit_01_Metrics/DensityProblems.pdf"},
+        {"title": "Graphing With Excel", "url": "/chemistry/Unit_01_Metrics/GraphingWithExcel2011.pdf"},
+        {"title": "How to Make a Good Science Graph", "url": "/chemistry/Unit_01_Metrics/GraphingRubric.pdf"},
+        {"title": "Instructions for Typing Special Characters", "url": "/chemistry/Unit_01_Metrics/Typing.pdf"},
+        {"title": "Math for Chemistry", "url": "/chemistry/Unit_01_Metrics/MathforChemistry.pdf"},
+        {"title": "Math for Chemistry #2", "url": "/chemistry/Unit_01_Metrics/MathforChemistry2.pdf"},
+        {"title": "Metric Prefixes Handout", "url": "/chemistry/Unit_01_Metrics/Prefix.pdf"},
+        {"title": "Metrics #1", "url": "/chemistry/Unit_01_Metrics/Metric1.pdf"},
+        {"title": "Metrics #2", "url": "/chemistry/Unit_01_Metrics/Metric2.pdf"},
+        {"title": "Metrics #3", "url": "/chemistry/Unit_01_Metrics/Metric3.pdf"},
+        {"title": "Proper Observations", "url": "/chemistry/Unit_01_Metrics/Observations.pdf"},
+        {"title": "RTG (Read the Graph)", "url": "/chemistry/Unit_01_Metrics/RTG.pdf"},
+        {"title": "RTQ#1 (Read the Question)", "url": "/chemistry/Unit_01_Metrics/RTQ1.pdf"},
+        {"title": "RTQ#2 (Read the Question)", "url": "/chemistry/Unit_01_Metrics/RTQ2.pdf"},
+        {"title": "Significant Digits Rules", "url": "/chemistry/Unit_01_Metrics/sigfigrules.pdf"},
+        {"title": "The Art of Solving Problems", "url": "/chemistry/Unit_01_Metrics/Artofsolvingproblems.pdf"}
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Unit 2",
+      "subtitle": "Matter",
+      "handouts": [
+        {"title": "Unit 2 Lecture Notes", "url": "/chemistry/Unit_02_Matter/Honors_Matter.pdf"},
+        {"title": "Chemical Change Lab", "url": "/chemistry/Unit_02_Matter/Chemical_PhysicalChange.pdf"},
+        {"title": "Chemical Formulas and Nomenclature Homework #1", "url": "/chemistry/Unit_02_Matter/Nomenclature1.pdf"},
+        {"title": "Chemical Formulas and Nomenclature Homework #2", "url": "/chemistry/Unit_02_Matter/Nomenclature2.pdf"},
+        {"title": "Chemical Formulas and Nomenclature Homework #3", "url": "/chemistry/Unit_02_Matter/Nomenclature3.pdf"},
+        {"title": "Formula Grid Homework #1", "url": "/chemistry/Unit_02_Matter/FormulaGrid1.pdf"},
+        {"title": "Formula Grid Homework #2", "url": "/chemistry/Unit_02_Matter/FormulaGrid2.pdf"},
+        {"title": "Formula Grid Homework #3", "url": "/chemistry/Unit_02_Matter/FormulaGrid3.pdf"},
+        {"title": "Formula Grid Homework #4", "url": "/chemistry/Unit_02_Matter/FormulaGrid4.pdf"},
+        {"title": "Four Liquids Lab", "url": "/chemistry/Unit_02_Matter/FourLiquids.pdf"},
+        {"title": "Matter Homework", "url": "/chemistry/Unit_02_Matter/MatterHW.pdf"},
+        {"title": "Nomenclature Simplified", "url": "/chemistry/Unit_02_Matter/Nomenclature.pdf"},
+        {"title": "Paper Chromatography Lab", "url": "/chemistry/Unit_02_Matter/PaperChromatography.pdf"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Unit 3",
+      "subtitle": "Chemical Reactions",
+      "handouts": [
+        {"title": "Unit 3 Lecture Notes", "url": "/chemistry/Unit_3_Chemical_Reactions/Reactions_Student_Copy.pdf"},
+        {"title": "Activity Series Lab", "url": "/chemistry/Unit_3_Chemical_Reactions/ActivitySeries.pdf"},
+        {"title": "Balancing Equations #1", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing1.pdf"},
+        {"title": "Balancing Equations #2", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing2.pdf"},
+        {"title": "Balancing Equations #3", "url": "/chemistry/Unit_3_Chemical_Reactions/Balancing3.pdf"},
+        {"title": "Classes of Chemical Reactions", "url": "/chemistry/Unit_3_Chemical_Reactions/ClassesReactions.pdf"},
+        {"title": "Lab for Balancing with Models", "url": "/chemistry/Unit_3_Chemical_Reactions/BalancingModels.pdf"},
+        {"title": "Precipitate Lab", "url": "/chemistry/Unit_3_Chemical_Reactions/PrecipitationLab.pdf"},
+        {"title": "Precipitation Homework", "url": "/chemistry/Unit_3_Chemical_Reactions/PrecipitateHW.pdf"},
+        {"title": "Reaction Prediction Homework #1", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction1.pdf"},
+        {"title": "Reaction Prediction Homework #2", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction2.pdf"},
+        {"title": "Reaction Prediction Homework #3", "url": "/chemistry/Unit_3_Chemical_Reactions/ReactionPrediction3.pdf"},
+        {"title": "Worksheet of Word Equations", "url": "/chemistry/Unit_3_Chemical_Reactions/WordEquations.pdf"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Unit 4",
+      "subtitle": "Stoichiometry and The Mole",
+      "handouts": [
         {"title": "Unit 4 Lecture Notes", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/Stoichiometry_Student_Copy.pdf"},
-        {"title": "Molar Mass Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Simple Mole Chart", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Simple Roadmap Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Simple Roadmap Problems #2", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Formula Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Counting Atoms Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Moles of Iron and Copper Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Molarity Worksheet", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Excess Reactant Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Formula Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Molar Mass Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Molarity #2", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Mole Ratio Homework", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Molarity Worksheet", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Mole Ratio #2", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Mole Ratio Homework", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Mole Ratio Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Moles and Mass in a Chemical Reaction Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Excess Reactant Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Roadmap Problems #1", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Moles of Iron and Copper Lab", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "More Roadmap Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Roadmap Problems #1", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
         {"title": "Roadmap Problems #2 Limiting and Excess Reactants", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
-        {"title": "Roadmap Problems #3 Reactions in Solution", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"}
-    ]
-},
-{
-    "id": 4,
-    "title": "Unit 5",
-    "subtitle": "Atomic Structure",
-    "handouts": [
+        {"title": "Roadmap Problems #3 Reactions in Solution", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Simple Mole Chart", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Simple Roadmap Problems", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"},
+        {"title": "Simple Roadmap Problems #2", "url": "/chemistry/Unit_04_Stoichiometry_and_The_Mole/"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Unit 5",
+      "subtitle": "Atomic Structure",
+      "handouts": [
         {"title": "Unit 5 Lecture Notes", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Honors_Atoms_Light.pdf"},
         {"title": "A History of Atomic Structure on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/"},
-        {"title": "The Quantum Story on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/"},
         {"title": "Atomic Structure #1", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/AtomicWorksheet.pdf"},
         {"title": "Atomic Structure #2", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/AtomicWorksheettwo.pdf"},
-        {"title": "Waves #1", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/WavesWS.pdf"},
+        {"title": "Aufbau Chart", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Aufbau.pdf"},
         {"title": "Electromagnetic Spectrum Worksheet", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/ElectromagneticSpectrum.pdf"},
         {"title": "Electromagnetic Spectrum Worksheet #2", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Electromagnetictwo.pdf"},
+        {"title": "Isotope Lab", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/IsotopeLab.pdf"},
+        {"title": "Review Questions on Light", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/LightPractice.pdf"},
+        {"title": "Spectra Lab", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/SpectraLab.pdf"},
         {"title": "The Bohr Model", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/BohrWS.pdf"},
         {"title": "The Bohr Model for Regular Chemistry", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/BohrWS-R.pdf"},
-        {"title": "Isotope Lab", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/IsotopeLab.pdf"},
-        {"title": "Aufbau Chart", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Aufbau.pdf"},
-        {"title": "Spectra Lab", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/SpectraLab.pdf"},
-        {"title": "Review Questions on Light", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/LightPractice.pdf"}
-    ]
-},
-{
-    "id": 5,
-    "title": "Unit 6",
-    "subtitle": "The Periodic Table",
-    "handouts": [
+        {"title": "The Quantum Story on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/"},
+        {"title": "Waves #1", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/WavesWS.pdf"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Unit 6",
+      "subtitle": "The Periodic Table",
+      "handouts": [
         {"title": "Unit 6 Lecture Notes", "url": "/chemistry/Unit_06_The_Periodic_Table/Honors_Periodic.pdf"},
-        {"title": "Periodicity Homework #1", "url": "/chemistry/Unit_06_The_Periodic_Table/Periodicity1.pdf"},
-        {"title": "Periodicity Homework #2", "url": "/chemistry/Unit_06_The_Periodic_Table/Periodicity2.pdf"},
         {"title": "Elements Lab", "url": "/chemistry/Unit_06_The_Periodic_Table/ElementsLab.pdf"},
-        {"title": "Periodic Table Videos Lab", "url": "/chemistry/Unit_06_The_Periodic_Table/PeriodicTableVideoLab.pdf"}
-    ]
-},
-{
-    "id": 6,
-    "title": "Unit 7",
-    "subtitle": "Bonding and Lewis Structures",
-    "handouts": [
+        {"title": "Periodic Table Videos Lab", "url": "/chemistry/Unit_06_The_Periodic_Table/PeriodicTableVideoLab.pdf"},
+        {"title": "Periodicity Homework #1", "url": "/chemistry/Unit_06_The_Periodic_Table/Periodicity1.pdf"},
+        {"title": "Periodicity Homework #2", "url": "/chemistry/Unit_06_The_Periodic_Table/Periodicity2.pdf"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Unit 7",
+      "subtitle": "Bonding and Lewis Structures",
+      "handouts": [
         {"title": "Unit 7 Lecture Notes", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/Honors_Bonding.pdf"},
         {"title": "Bonding Homework", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/BondingHW.pdf"},
+        {"title": "Hydrogen Bonding Lab", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/HydrogenBondingLab.pdf"},
+        {"title": "Intermolecular Forces", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/IMFHW.pdf"},
         {"title": "Lewis Dots #1: Basic Structure", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/LewisDots1.pdf"},
         {"title": "Lewis Dots #2: VSEPR Theory", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/LewisDots2.pdf"},
         {"title": "Lewis Dots #3: Dipole Moments", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/LewisDots3.pdf"},
-        {"title": "Intermolecular Forces", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/IMFHW.pdf"},
-        {"title": "Shapes of Molecules", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/VSEPRDiagrams.pdf"},
         {"title": "Model Building Lab", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/ModelBuilding1.pdf"},
-        {"title": "Hydrogen Bonding Lab", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/HydrogenBondingLab.pdf"}
-    ]
-},
-{
-    "id": 7,
-    "title": "Unit 8",
-    "subtitle": "Gases",
-    "handouts": [
+        {"title": "Shapes of Molecules", "url": "/chemistry/Unit_07_Bonding_and_Lewis_Structures/VSEPRDiagrams.pdf"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Unit 8",
+      "subtitle": "Gases",
+      "handouts": [
         {"title": "Unit 8 Lecture Notes", "url": "/chemistry/Unit_08_Gases/Honors_Gases.pdf"},
-        {"title": "Graphical Analysis Lab", "url": "/chemistry/Unit_08_Gases/GraphicalAnalysisLab.pdf"},
+        {"title": "Absolute Zero Lab", "url": "/chemistry/Unit_08_Gases/AbsoluteZeroLab.pdf"},
         {"title": "All Gas Law Problems", "url": "/chemistry/Unit_08_Gases/GasLawProbs.pdf"},
         {"title": "Boyle's Law CBL Lab", "url": "/chemistry/Unit_08_Gases/BoyleCBL.pdf"},
-        {"title": "Absolute Zero Lab", "url": "/chemistry/Unit_08_Gases/AbsoluteZeroLab.pdf"},
-        {"title": "Chemical Properties of Gases Lab", "url": "/chemistry/Unit_08_Gases/chemicalpropgases.pdf"}
-    ]
-},
-{
-    "id": 8,
-    "title": "Unit 9",
-    "subtitle": "Kinetics",
-    "handouts": [
+        {"title": "Chemical Properties of Gases Lab", "url": "/chemistry/Unit_08_Gases/chemicalpropgases.pdf"},
+        {"title": "Graphical Analysis Lab", "url": "/chemistry/Unit_08_Gases/GraphicalAnalysisLab.pdf"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Unit 9",
+      "subtitle": "Kinetics",
+      "handouts": [
         {"title": "Unit 9 Lecture Notes", "url": "/chemistry/Unit_09_Kinetics/Honors_Kinetics.pdf"},
+        {"title": "Iodine Clock Lab", "url": "/chemistry/Unit_09_Kinetics/IodineClockLabHonors.pdf"},
         {"title": "Kinetics Homework #1", "url": "/chemistry/Unit_09_Kinetics/Kinetics1.pdf"},
         {"title": "Kinetics Homework #2", "url": "/chemistry/Unit_09_Kinetics/Kinetics2.pdf"},
         {"title": "Kinetics Homework #3", "url": "/chemistry/Unit_09_Kinetics/Kinetics3.pdf"},
         {"title": "Kinetics Homework #4", "url": "/chemistry/Unit_09_Kinetics/Kinetics4.pdf"},
-        {"title": "Vinegar Lab", "url": "/chemistry/Unit_09_Kinetics/vinegarlab.pdf"},
         {"title": "Reaction Rates Lab", "url": "/chemistry/Unit_09_Kinetics/ReactionRateLab.pdf"},
-        {"title": "Iodine Clock Lab", "url": "/chemistry/Unit_09_Kinetics/IodineClockLabHonors.pdf"}
-    ]
-},
-{
-    "id": 9,
-    "title": "Unit 10",
-    "subtitle": "Equilibrium",
-    "handouts": [
+        {"title": "Vinegar Lab", "url": "/chemistry/Unit_09_Kinetics/vinegarlab.pdf"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Unit 10",
+      "subtitle": "Equilibrium",
+      "handouts": [
         {"title": "Unit 10 Lecture Notes", "url": "/chemistry/Unit_10_Equilibrium/Honors_Equilibrium.pdf"},
+        {"title": "Equilibrium Practice #1", "url": "/chemistry/Unit_10_Equilibrium/EqConstant.pdf"},
+        {"title": "Equilibrium Practice #2", "url": "/chemistry/Unit_10_Equilibrium/EqConstant2.pdf"},
         {"title": "Le Chetalier's Principle Homework #1", "url": "/chemistry/Unit_10_Equilibrium/LeChatelier.pdf"},
         {"title": "Le Chetalier's Principle Homework #2", "url": "/chemistry/Unit_10_Equilibrium/LeChatelier2.pdf"},
         {"title": "Le Chetalier's Principle Lab", "url": "/chemistry/Unit_10_Equilibrium/LeChateliersLab.pdf"},
-        {"title": "Equilibrium Practice #1", "url": "/chemistry/Unit_10_Equilibrium/EqConstant.pdf"},
-        {"title": "Equilibrium Practice #2", "url": "/chemistry/Unit_10_Equilibrium/EqConstant2.pdf"},
         {"title": "The ICE Box", "url": "/chemistry/Unit_10_Equilibrium/EquilibriumICEBox.pdf"}
-    ]
-},
-{
-    "id": 10,
-    "title": "Unit 11",
-    "subtitle": "Acids and Bases",
-    "handouts": [
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Unit 11",
+      "subtitle": "Acids and Bases",
+      "handouts": [
         {"title": "Unit 11 Lecture Notes", "url": "/chemistry/Unit_11_Acids_and_Bases/Honors_Acids.pdf"},
-        {"title": "Conjugate Acids and Bases", "url": "/chemistry/Unit_11_Acids_and_Bases/ConjugatePairs.pdf"},
         {"title": "Acid Base Names", "url": "/chemistry/Unit_11_Acids_and_Bases/AcidBaseNames.pdf"},
+        {"title": "Acid Dissociation Constant Lab", "url": "/chemistry/Unit_11_Acids_and_Bases/KaLab.pdf"},
+        {"title": "Conjugate Acids and Bases", "url": "/chemistry/Unit_11_Acids_and_Bases/ConjugatePairs.pdf"},
+        {"title": "Microtitration of Acetic Acid", "url": "/chemistry/Unit_11_Acids_and_Bases/MicrotrationLab.pdf"},
+        {"title": "Neutralization Questions", "url": "/chemistry/Unit_11_Acids_and_Bases/Neutralization.pdf"},
+        {"title": "pH Lab", "url": "/chemistry/Unit_11_Acids_and_Bases/pHLab.pdf"},
         {"title": "pH Practice #1", "url": "/chemistry/Unit_11_Acids_and_Bases/pHSquares1.pdf"},
         {"title": "pH Practice #2", "url": "/chemistry/Unit_11_Acids_and_Bases/pHSquares2.pdf"},
         {"title": "pH Practice #3", "url": "/chemistry/Unit_11_Acids_and_Bases/pHSquares3.pdf"},
-        {"title": "pH Lab", "url": "/chemistry/Unit_11_Acids_and_Bases/pHLab.pdf"},
-        {"title": "Neutralization Questions", "url": "/chemistry/Unit_11_Acids_and_Bases/Neutralization.pdf"},
-        {"title": "Weak Acid Practice Problems", "url": "/chemistry/Unit_11_Acids_and_Bases/WeakAcidsPracticeProble.pdf"},
-        {"title": "Acid Dissociation Constant Lab", "url": "/chemistry/Unit_11_Acids_and_Bases/KaLab.pdf"},
-        {"title": "Microtitration of Acetic Acid", "url": "/chemistry/Unit_11_Acids_and_Bases/MicrotrationLab.pdf"},
+        {"title": "Titration Lab Experiment", "url": "/chemistry/Unit_11_Acids_and_Bases/TitrationLabHonors.pdf"},
         {"title": "Titration Problems #1", "url": "/chemistry/Unit_11_Acids_and_Bases/TitrationProblemsHonors.pdf"},
         {"title": "Titration Problems #2", "url": "/chemistry/Unit_11_Acids_and_Bases/TitrationProblemsHonors-2.pdf"},
-        {"title": "Titration Lab Experiment", "url": "/chemistry/Unit_11_Acids_and_Bases/TitrationLabHonors.pdf"}
-    ]
-},
-{
-    "id": 11,
-    "title": "Unit 12",
-    "subtitle": "Thermodynamics",
-    "handouts": [
+        {"title": "Weak Acid Practice Problems", "url": "/chemistry/Unit_11_Acids_and_Bases/WeakAcidsPracticeProble.pdf"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Unit 12",
+      "subtitle": "Thermodynamics",
+      "handouts": [
         {"title": "Unit 12 Lecture Notes", "url": "/chemistry/Unit_12_Thermodynamics/Honors_Thermo.pdf"},
         {"title": "Heat Problems #1", "url": "/chemistry/Unit_12_Thermodynamics/Heatproblems.pdf"},
         {"title": "Heat Problems #2", "url": "/chemistry/Unit_12_Thermodynamics/HeatProblems2.pdf"},
-        {"title": "Phase Change Worksheet", "url": "/chemistry/Unit_12_Thermodynamics/phase.pdf"},
         {"title": "Heating Curve Lab", "url": "/chemistry/Unit_12_Thermodynamics/HeatingCurveLab.pdf"},
-        {"title": "Phase Change Lab Heat of Fusion", "url": "/chemistry/Unit_12_Thermodynamics/HeatofFusionLab.pdf"},
+        {"title": "Hess's Law Lab", "url": "/chemistry/Unit_12_Thermodynamics/HeatofReactionLab.pdf"},
         {"title": "Hess's Law Problems #1", "url": "/chemistry/Unit_12_Thermodynamics/Hess'sLawProblems.pdf"},
         {"title": "Hess's Law Problems #2", "url": "/chemistry/Unit_12_Thermodynamics/Hess2.pdf"},
-        {"title": "Hess's Law Lab", "url": "/chemistry/Unit_12_Thermodynamics/HeatofReactionLab.pdf"},
-        {"title": "Thermochemistry Vocabulary Assignment", "url": "/chemistry/Unit_12_Thermodynamics/ThermoVocab.pdf"},
-        {"title": "Predicting Thermodynamic Change", "url": "/chemistry/Unit_12_Thermodynamics/QualitativeThermodynamicChange.pdf"}
-    ]
-},
-{
-    "id": 12,
-    "title": "Unit 13",
-    "subtitle": "Electrochemistry",
-    "handouts": [
+        {"title": "Phase Change Lab Heat of Fusion", "url": "/chemistry/Unit_12_Thermodynamics/HeatofFusionLab.pdf"},
+        {"title": "Phase Change Worksheet", "url": "/chemistry/Unit_12_Thermodynamics/phase.pdf"},
+        {"title": "Predicting Thermodynamic Change", "url": "/chemistry/Unit_12_Thermodynamics/QualitativeThermodynamicChange.pdf"},
+        {"title": "Thermochemistry Vocabulary Assignment", "url": "/chemistry/Unit_12_Thermodynamics/ThermoVocab.pdf"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Unit 13",
+      "subtitle": "Electrochemistry",
+      "handouts": [
         {"title": "Unit 13 Lecture Notes", "url": "/chemistry/Unit_13_Electrochemistry/Honors_Electrochemistry.pdf"},
+        {"title": "Electrochemical Cell Lab", "url": "/chemistry/Unit_13_Electrochemistry/CellPotentialLab.pdf"},
+        {"title": "Redox Agents Labs", "url": "/chemistry/Unit_13_Electrochemistry/redoxagents.pdf"},
         {"title": "Redox Homework #1 'Reactions'", "url": "/chemistry/Unit_13_Electrochemistry/redox1.pdf"},
         {"title": "Redox Homework #2 'Reactions in Acid'", "url": "/chemistry/Unit_13_Electrochemistry/redox2.pdf"},
         {"title": "Redox Homework #3 'Reactions in Bases'", "url": "/chemistry/Unit_13_Electrochemistry/redox3.pdf"},
-        {"title": "Redox Homework #4 'Electrochemical Cells'", "url": "/chemistry/Unit_13_Electrochemistry/redox4.pdf"},
-        {"title": "Redox Agents Labs", "url": "/chemistry/Unit_13_Electrochemistry/redoxagents.pdf"},
-        {"title": "Electrochemical Cell Lab", "url": "/chemistry/Unit_13_Electrochemistry/CellPotentialLab.pdf"}
-    ]
-},
-{
-    "id": 13,
-    "title": "Unit 14",
-    "subtitle": "Organic Chemistry",
-    "handouts": [
+        {"title": "Redox Homework #4 'Electrochemical Cells'", "url": "/chemistry/Unit_13_Electrochemistry/redox4.pdf"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Unit 14",
+      "subtitle": "Organic Chemistry",
+      "handouts": [
         {"title": "Unit 14 Lecture Notes", "url": "/chemistry/Unit_14_Organic_Chemistry/Honors_Organic.pdf"},
         {"title": "Functional Group Handout", "url": "/chemistry/Unit_14_Organic_Chemistry/Functionalgroups.pdf"},
+        {"title": "Functional Groups Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicCompoundsLab.pdf"},
         {"title": "Identifying Functional Groups", "url": "/chemistry/Unit_14_Organic_Chemistry/RecognizingFunction.pdf"},
+        {"title": "Isomer Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicIsomerLab.pdf"},
         {"title": "Organic Nomenclature", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicNomenclature1.pdf"},
         {"title": "Organic Nomenclature #2", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicNomenclature2.pdf"},
         {"title": "Organic Reactions #1", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicReactions1.pdf"},
         {"title": "Organic Reactions #2", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicReactions2.pdf"},
-        {"title": "Functional Groups Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicCompoundsLab.pdf"},
-        {"title": "Isomer Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicIsomerLab.pdf"},
-        {"title": "Synthesis of Esters Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/PreparationofEsters.pdf"},
-        {"title": "Organic Reactions Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicReactionsLab.pdf"}
-    ]
-},
-{
-    "id": 14,
-    "title": "Unit 15",
-    "subtitle": "Nuclear Chemistry",
-    "handouts": [
+        {"title": "Organic Reactions Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/OrganicReactionsLab.pdf"},
+        {"title": "Synthesis of Esters Lab", "url": "/chemistry/Unit_14_Organic_Chemistry/PreparationofEsters.pdf"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Unit 15",
+      "subtitle": "Nuclear Chemistry",
+      "handouts": [
         {"title": "Unit 15 Lecture Notes", "url": "/chemistry/Unit_15_Nuclear_Chemistry/"},
         {"title": "Decay Equations", "url": "/chemistry/Unit_15_Nuclear_Chemistry/NuclearDecayPractice.pdf"},
         {"title": "Half Life Questions", "url": "/chemistry/Unit_15_Nuclear_Chemistry/HalfLifePractice.pdf"},
         {"title": "Half Life of a Penny Lab", "url": "/chemistry/Unit_15_Nuclear_Chemistry/HalfLifeLab.pdf"}
-    ]
-}
-
-]
+      ]
+    }
+  ]
+  
