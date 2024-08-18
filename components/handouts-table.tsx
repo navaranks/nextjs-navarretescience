@@ -1,4 +1,5 @@
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
+import Link from 'next/link';
 import React from 'react'
 
 interface Handout {
@@ -24,7 +25,7 @@ const UnitTable: React.FC<UnitTableProps> = ({ unitTitle, unitSubtitle, handouts
                     {handouts.map((handout, index) => (
                         <TableRow key={index} className='odd:bg-secondary'>
                             <TableCell className='hover:underline hover:text-primary  hover:bg-muted/50'>
-                                <a href={handout.url}>{handout.title}</a>
+                                <Link href={handout.url}>{handout.title}</Link>
                             </TableCell>
                         </TableRow>
                     ))}
