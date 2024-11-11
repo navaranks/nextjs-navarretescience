@@ -98,7 +98,8 @@
       "subtitle": "Atomic Structure",
       "handouts": [
         {"title": "Unit 5 Lecture Notes", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Honors_Atoms_Light.pdf"},
-        {"title": "A History of Atomic Structure on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/"},
+        {"title": "A History of Atomic Structure on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/atomicpict.pdf"},
+        {"title": "Atomic Questions", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/AtomicQuestions.pdf"},
         {"title": "Atomic Structure #1", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/AtomicWorksheet.pdf"},
         {"title": "Atomic Structure #2", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/AtomicWorksheettwo.pdf"},
         {"title": "Aufbau Chart", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/Aufbau.pdf"},
@@ -109,7 +110,7 @@
         {"title": "Spectra Lab", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/SpectraLab.pdf"},
         {"title": "The Bohr Model", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/BohrWS.pdf"},
         {"title": "The Bohr Model for Regular Chemistry", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/BohrWS-R.pdf"},
-        {"title": "The Quantum Story on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/"},
+        {"title": "The Quantum Story on Postage Stamps", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/QuantumPCP.pdf"},
         {"title": "Waves #1", "url": "/chemistry/Unit_05_Atomic_Structure_and_Waves/WavesWS.pdf"}
       ]
     },
