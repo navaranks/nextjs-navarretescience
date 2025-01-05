@@ -11,7 +11,7 @@ interface ScheduleTabsProps {
 }
 
 export default function ScheduleTabs({ isLoading, scheduleData }: ScheduleTabsProps) {
-  const [selectedTab, setSelectedTab] = useState('fall');
+  const [selectedTab, setSelectedTab] = useState('spring');
 
   //Filter schedule data based on selected tab
   const springData = scheduleData?.filter(item => item.season === 'Spring') || [];
