@@ -4,11 +4,13 @@ import HomeCards from "../../components/home-page/home-cards";
 import IconDivider from "../../components/home-page/icon-divider";
 import AddToHomeScreen from "@/components/AddToHomeScreen";
 import RegisterServiceWorker from "@/components/home-page/RegisterServiceWorker";
+import { SnowOverlay} from "react-snow-overlay";
 
 export default function Home() {
   return (
     <>
       <RegisterServiceWorker />
+      <SnowOverlay />
       <main className="h-screen w-full">
         <div className="flex flex-col items-center p-6 bg-neutral-900 md:h-full h-fit">
         <HeroCard />
