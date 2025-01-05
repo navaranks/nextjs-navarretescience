@@ -4,6 +4,7 @@ import { Source_Sans_3 } from "next/font/google";
 import "../globals.css";
 import { ThemeProvider } from "../../components/ui/theme-provider";
 import { SpeedInsights} from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Source_Sans_3({ subsets: ["latin"] });
 
@@ -22,7 +23,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <ThemeProvider attribute="class" enableSystem defaultTheme="system" disableTransitionOnChange>
-        <body className={`${inter.className} h-dvh bg-neutral-900`}>{children}</body>
+        <body className={`${inter.className} h-dvh bg-neutral-900`}>
+          {children}
+          <Analytics />
+          </body>
       </ThemeProvider>
       <SpeedInsights />
     </html>

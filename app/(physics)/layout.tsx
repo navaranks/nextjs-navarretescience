@@ -15,6 +15,7 @@ import { ThemeProvider } from "../../components/ui/theme-provider";
 import { useEffect } from "react";
 import { Source_Sans_3 } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import BottomMenu from "@/components/bottommenu";
@@ -94,7 +95,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   ImageSrcDark={heroImageDark}
                 />
                 <section className="bg-background min-h-fit h-full">
-                  <div className="last:pb-24 md:last:pb-28">{children}</div>
+                  <div className="last:pb-24 md:last:pb-28">
+                    {children}
+                    <Analytics />
+                    </div>
                 </section>
                 <BottomMenu
                   links={navLinks.map((link) => ({
