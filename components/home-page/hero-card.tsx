@@ -18,7 +18,7 @@ function HeroCard() {
         {!imageLoaded && <Skeleton className="h-64 w-[600px] mx-auto" />}
         <div className='w-full md:w-1/2 mx-auto'>
         <Image
-          src="/images/compressedlogo.gif"
+          src="/images/logo.png"
           alt="Hero Image"
           width={1600}
           height={500}

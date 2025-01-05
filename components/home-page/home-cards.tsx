@@ -22,7 +22,7 @@ function HomeCards() {
       >
         {!chemLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <Image
-          src="/images/Chem.gif"
+          src="/images/Chem.png"
           alt="Chemistry"
           width={256}
           height={256}
@@ -37,7 +37,7 @@ function HomeCards() {
       >
         {!physLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <Image
-          src="/images/cradleloop.gif"
+          src="/images/cradle.png"
           alt="Physics"
           width={256}
           height={256}
@@ -52,7 +52,7 @@ function HomeCards() {
       >
         {!aboutLoaded && <Skeleton className="w-64 h-64 mx-auto" />}
         <Image
-          src="/images/Aboutlogo.gif"
+          src="/images/aboutlogo.png"
           alt="About"
           width={256}
           height={256}
