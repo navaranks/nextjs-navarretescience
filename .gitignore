@@ -40,4 +40,6 @@ next-env.d.ts
 
 # PWA files
 
+# Textbooks
+/public/textbooks
 
