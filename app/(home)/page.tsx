@@ -9,8 +9,8 @@ import { SnowOverlay} from "react-snow-overlay";
 export default function Home() {
   return (
     <>
-      <RegisterServiceWorker />
-      <SnowOverlay />
+      <RegisterServiceWorker /> 
+      {/* <SnowOverlay />*/}
       <main className="h-screen w-full">
         <div className="flex flex-col items-center p-6 bg-neutral-900 md:h-full h-fit">
         <HeroCard />
